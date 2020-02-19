@@ -1,0 +1,6840 @@
+[
+  {
+    "command": "cancel_crop_move",
+    "delay_frames": 6
+  },
+  {
+    "command": "cancel_crop_move_result",
+    "current_crop_height": 1360.622802734375,
+    "current_crop_width": 2418.88427734375,
+    "current_crop_x": 718.4631958007812,
+    "current_crop_y": 622.0616455078125,
+    "discarded_frames": 12,
+    "error_code": 0,
+    "error_description": "",
+    "remaining_frames": 6,
+    "result": true
+  },
+  {
+    "command": "set_crop",
+    "transition_aray": [
+      {
+        "h": 1358.137939453125,
+        "w": 2414.466796875,
+        "x": 729.5467529296875,
+        "y": 606.1866455078125
+      },
+      {
+        "h": 1355.837158203125,
+        "w": 2410.37646484375,
+        "x": 739.809326171875,
+        "y": 591.487548828125
+      },
+      {
+        "h": 1353.720458984375,
+        "w": 2406.61328125,
+        "x": 749.2509155273438,
+        "y": 577.9644165039062
+      },
+      {
+        "h": 1351.7877197265625,
+        "w": 2403.177490234375,
+        "x": 757.8715209960938,
+        "y": 565.6171875
+      },
+      {
+        "h": 1350.039306640625,
+        "w": 2400.06884765625,
+        "x": 765.6710815429688,
+        "y": 554.4458618164062
+      },
+      {
+        "h": 1348.474609375,
+        "w": 2397.287353515625,
+        "x": 772.6495971679688,
+        "y": 544.4505004882812
+      },
+      {
+        "h": 1347.093994140625,
+        "w": 2394.833251953125,
+        "x": 778.80712890625,
+        "y": 535.6310424804688
+      },
+      {
+        "h": 1345.897705078125,
+        "w": 2392.70654296875,
+        "x": 784.1436767578125,
+        "y": 527.9874877929688
+      },
+      {
+        "h": 1344.8853759765625,
+        "w": 2390.906494140625,
+        "x": 788.6592407226562,
+        "y": 521.5198974609375
+      },
+      {
+        "h": 1344.05712890625,
+        "w": 2389.43408203125,
+        "x": 792.353759765625,
+        "y": 516.228271484375
+      },
+      {
+        "h": 1343.412841796875,
+        "w": 2388.28857421875,
+        "x": 795.227294921875,
+        "y": 512.1124877929688
+      },
+      {
+        "h": 1342.9527587890625,
+        "w": 2387.470703125,
+        "x": 797.27978515625,
+        "y": 509.1726989746094
+      },
+      {
+        "h": 1342.6766357421875,
+        "w": 2386.979736328125,
+        "x": 798.5112915039062,
+        "y": 507.4087829589844
+      },
+      {
+        "h": 1342.5845947265625,
+        "w": 2386.816162109375,
+        "x": 798.9218139648438,
+        "y": 506.8208312988281
+      }
+    ],
+    "transition_type": "crop_move"
+  },
+  {
+    "accepted_items": 14,
+    "command": "set_crop_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true,
+    "total_items": 20
+  },
+  {
+    "command": "cancel_crop_move",
+    "delay_frames": 6
+  },
+  {
+    "command": "cancel_crop_move_result",
+    "current_crop_height": 1358.137939453125,
+    "current_crop_width": 2414.466796875,
+    "current_crop_x": 729.5467529296875,
+    "current_crop_y": 606.1866455078125,
+    "discarded_frames": 13,
+    "error_code": 0,
+    "error_description": "",
+    "remaining_frames": 6,
+    "result": true
+  },
+  {
+    "command": "set_crop",
+    "transition_aray": [
+      {
+        "h": 1389.7913818359375,
+        "w": 2470.739501953125,
+        "x": 710.92236328125,
+        "y": 576.427001953125
+      },
+      {
+        "h": 1419.1002197265625,
+        "w": 2522.843994140625,
+        "x": 693.677490234375,
+        "y": 548.871826171875
+      },
+      {
+        "h": 1446.064208984375,
+        "w": 2570.780029296875,
+        "x": 677.812255859375,
+        "y": 523.52099609375
+      },
+      {
+        "h": 1470.68359375,
+        "w": 2614.5478515625,
+        "x": 663.3265380859375,
+        "y": 500.3746032714844
+      },
+      {
+        "h": 1492.958251953125,
+        "w": 2654.147216796875,
+        "x": 650.220458984375,
+        "y": 479.4326477050781
+      },
+      {
+        "h": 1512.8883056640625,
+        "w": 2689.578125,
+        "x": 638.4939575195312,
+        "y": 460.6950988769531
+      },
+      {
+        "h": 1530.4735107421875,
+        "w": 2720.8408203125,
+        "x": 628.1470947265625,
+        "y": 444.1619873046875
+      },
+      {
+        "h": 1545.714111328125,
+        "w": 2747.935302734375,
+        "x": 619.1797485351562,
+        "y": 429.833251953125
+      },
+      {
+        "h": 1558.6099853515625,
+        "w": 2770.861083984375,
+        "x": 611.592041015625,
+        "y": 417.7089538574219
+      },
+      {
+        "h": 1569.1611328125,
+        "w": 2789.61865234375,
+        "x": 605.3838500976562,
+        "y": 407.7890930175781
+      },
+      {
+        "h": 1577.3675537109375,
+        "w": 2804.2080078125,
+        "x": 600.5552978515625,
+        "y": 400.0736389160156
+      },
+      {
+        "h": 1583.229248046875,
+        "w": 2814.62890625,
+        "x": 597.1063232421875,
+        "y": 394.5625915527344
+      },
+      {
+        "h": 1586.746337890625,
+        "w": 2820.88134765625,
+        "x": 595.0369873046875,
+        "y": 391.2559509277344
+      },
+      {
+        "h": 1587.918701171875,
+        "w": 2822.965576171875,
+        "x": 594.34716796875,
+        "y": 390.15374755859375
+      }
+    ],
+    "transition_type": "crop_move"
+  },
+  {
+    "accepted_items": 14,
+    "command": "set_crop_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true,
+    "total_items": 19
+  },
+  {
+    "command": "cancel_crop_move",
+    "delay_frames": 6
+  },
+  {
+    "command": "cancel_crop_move_result",
+    "current_crop_height": 1419.1002197265625,
+    "current_crop_width": 2522.843994140625,
+    "current_crop_x": 693.677490234375,
+    "current_crop_y": 548.871826171875,
+    "discarded_frames": 12,
+    "error_code": 0,
+    "error_description": "",
+    "remaining_frames": 6,
+    "result": true
+  },
+  {
+    "command": "set_crop",
+    "transition_aray": [
+      {
+        "h": 1495.315673828125,
+        "w": 2658.33837890625,
+        "x": 633.1253662109375,
+        "y": 499.109130859375
+      },
+      {
+        "h": 1565.8856201171875,
+        "w": 2783.7958984375,
+        "x": 577.05859375,
+        "y": 453.0325622558594
+      },
+      {
+        "h": 1630.81005859375,
+        "w": 2899.21728515625,
+        "x": 525.4771728515625,
+        "y": 410.64215087890625
+      },
+      {
+        "h": 1690.0887451171875,
+        "w": 3004.6015625,
+        "x": 478.381103515625,
+        "y": 371.9378356933594
+      },
+      {
+        "h": 1743.721923828125,
+        "w": 3099.94921875,
+        "x": 435.7703857421875,
+        "y": 336.919677734375
+      },
+      {
+        "h": 1791.709228515625,
+        "w": 3185.260498046875,
+        "x": 397.6449890136719,
+        "y": 305.5876159667969
+      },
+      {
+        "h": 1834.051513671875,
+        "w": 3260.53515625,
+        "x": 364.0049133300781,
+        "y": 277.9416809082031
+      },
+      {
+        "h": 1870.74755859375,
+        "w": 3325.773193359375,
+        "x": 334.8501892089844,
+        "y": 253.9818878173828
+      },
+      {
+        "h": 1901.79833984375,
+        "w": 3380.974365234375,
+        "x": 310.1808166503906,
+        "y": 233.7082061767578
+      },
+      {
+        "h": 1927.20361328125,
+        "w": 3426.13916015625,
+        "x": 289.9967956542969,
+        "y": 217.1206512451172
+      },
+      {
+        "h": 1946.963134765625,
+        "w": 3461.267333984375,
+        "x": 274.298095703125,
+        "y": 204.21920776367188
+      },
+      {
+        "h": 1961.0771484375,
+        "w": 3486.35888671875,
+        "x": 263.0847473144531,
+        "y": 195.00390625
+      },
+      {
+        "h": 1969.5455322265625,
+        "w": 3501.413818359375,
+        "x": 256.3567199707031,
+        "y": 189.47471618652344
+      },
+      {
+        "h": 1972.368408203125,
+        "w": 3506.43212890625,
+        "x": 254.1140594482422,
+        "y": 187.63165283203125
+      }
+    ],
+    "transition_type": "crop_move"
+  },
+  {
+    "accepted_items": 14,
+    "command": "set_crop_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true,
+    "total_items": 19
+  },
+  {
+    "command": "cancel_crop_move",
+    "delay_frames": 6
+  },
+  {
+    "command": "cancel_crop_move_result",
+    "current_crop_height": 1495.315673828125,
+    "current_crop_width": 2658.33837890625,
+    "current_crop_x": 633.1253662109375,
+    "current_crop_y": 499.109130859375,
+    "discarded_frames": 13,
+    "error_code": 0,
+    "error_description": "",
+    "remaining_frames": 6,
+    "result": true
+  },
+  {
+    "command": "set_crop",
+    "transition_aray": [
+      {
+        "h": 1586.87939453125,
+        "w": 2821.1181640625,
+        "x": 545.9091186523438,
+        "y": 430.35430908203125
+      },
+      {
+        "h": 1671.6605224609375,
+        "w": 2971.84033203125,
+        "x": 465.1533508300781,
+        "y": 366.6924133300781
+      },
+      {
+        "h": 1749.6591796875,
+        "w": 3110.504638671875,
+        "x": 390.8580017089844,
+        "y": 308.1235046386719
+      },
+      {
+        "h": 1820.87548828125,
+        "w": 3237.111328125,
+        "x": 323.0231628417969,
+        "y": 254.6475067138672
+      },
+      {
+        "h": 1885.3089599609375,
+        "w": 3351.66015625,
+        "x": 261.64874267578125,
+        "y": 206.2644805908203
+      },
+      {
+        "h": 1942.960205078125,
+        "w": 3454.1513671875,
+        "x": 206.7348175048828,
+        "y": 162.9744110107422
+      },
+      {
+        "h": 1993.828857421875,
+        "w": 3544.58447265625,
+        "x": 158.28134155273438,
+        "y": 124.77728271484375
+      },
+      {
+        "h": 2037.915283203125,
+        "w": 3622.960205078125,
+        "x": 116.28833770751953,
+        "y": 91.67310333251953
+      },
+      {
+        "h": 2075.21875,
+        "w": 3689.27783203125,
+        "x": 80.75579071044922,
+        "y": 63.6618766784668
+      },
+      {
+        "h": 2105.739990234375,
+        "w": 3743.537841796875,
+        "x": 51.6837043762207,
+        "y": 40.74360275268555
+      },
+      {
+        "h": 2129.478759765625,
+        "w": 3785.739990234375,
+        "x": 29.072084426879883,
+        "y": 22.918275833129883
+      },
+      {
+        "h": 2146.43505859375,
+        "w": 3815.884521484375,
+        "x": 12.920926094055176,
+        "y": 10.185900688171387
+      },
+      {
+        "h": 2156.608642578125,
+        "w": 3833.97119140625,
+        "x": 3.230231523513794,
+        "y": 2.5464751720428467
+      },
+      {
+        "h": 2160.0,
+        "w": 3840.0,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "transition_type": "crop_move"
+  },
+  {
+    "accepted_items": 14,
+    "command": "set_crop_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true,
+    "total_items": 19
+  },
+  {
+    "command": "cancel_crop_move",
+    "delay_frames": 6
+  },
+  {
+    "command": "cancel_crop_move_result",
+    "current_crop_height": 1671.6605224609375,
+    "current_crop_width": 2971.84033203125,
+    "current_crop_x": 465.1533508300781,
+    "current_crop_y": 366.6924133300781,
+    "discarded_frames": 12,
+    "error_code": 0,
+    "error_description": "",
+    "remaining_frames": 6,
+    "result": true
+  },
+  {
+    "command": "set_crop",
+    "transition_aray": [
+      {
+        "h": 1738.931640625,
+        "w": 3091.433837890625,
+        "x": 401.07611083984375,
+        "y": 316.1786804199219
+      },
+      {
+        "h": 1801.219970703125,
+        "w": 3202.16845703125,
+        "x": 341.74530029296875,
+        "y": 269.40667724609375
+      },
+      {
+        "h": 1858.525146484375,
+        "w": 3304.044189453125,
+        "x": 287.1609802246094,
+        "y": 226.37644958496094
+      },
+      {
+        "h": 1910.8470458984375,
+        "w": 3397.0615234375,
+        "x": 237.32313537597656,
+        "y": 187.0879669189453
+      },
+      {
+        "h": 1958.186279296875,
+        "w": 3481.2197265625,
+        "x": 192.2317352294922,
+        "y": 151.541259765625
+      },
+      {
+        "h": 2000.542236328125,
+        "w": 3556.519287109375,
+        "x": 151.88681030273438,
+        "y": 119.73629760742188
+      },
+      {
+        "h": 2037.915283203125,
+        "w": 3622.960205078125,
+        "x": 116.28833770751953,
+        "y": 91.67310333251953
+      },
+      {
+        "h": 2070.304931640625,
+        "w": 3680.5419921875,
+        "x": 85.43632507324219,
+        "y": 67.35166931152344
+      },
+      {
+        "h": 2097.7119140625,
+        "w": 3729.265380859375,
+        "x": 59.33078384399414,
+        "y": 46.77199172973633
+      },
+      {
+        "h": 2120.135498046875,
+        "w": 3769.1298828125,
+        "x": 37.971702575683594,
+        "y": 29.93407440185547
+      },
+      {
+        "h": 2137.576171875,
+        "w": 3800.135498046875,
+        "x": 21.359081268310547,
+        "y": 16.83791732788086
+      },
+      {
+        "h": 2150.033935546875,
+        "w": 3822.282470703125,
+        "x": 9.492925643920898,
+        "y": 7.483518600463867
+      },
+      {
+        "h": 2157.508544921875,
+        "w": 3835.570556640625,
+        "x": 2.3732314109802246,
+        "y": 1.8708796501159668
+      },
+      {
+        "h": 2160.0,
+        "w": 3840.0,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "transition_type": "crop_move"
+  },
+  {
+    "accepted_items": 14,
+    "command": "set_crop_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true,
+    "total_items": 20
+  },
+  {
+    "command": "cancel_crop_move",
+    "delay_frames": 6
+  },
+  {
+    "command": "cancel_crop_move_result",
+    "current_crop_height": 1738.931640625,
+    "current_crop_width": 3091.433837890625,
+    "current_crop_x": 401.07611083984375,
+    "current_crop_y": 316.1786804199219,
+    "discarded_frames": 13,
+    "error_code": 0,
+    "error_description": "",
+    "remaining_frames": 6,
+    "result": true
+  },
+  {
+    "command": "set_crop",
+    "transition_aray": [
+      {
+        "h": 1796.9361572265625,
+        "w": 3194.552734375,
+        "x": 345.8258056640625,
+        "y": 272.6234436035156
+      },
+      {
+        "h": 1850.6436767578125,
+        "w": 3290.032958984375,
+        "x": 294.66815185546875,
+        "y": 232.29452514648438
+      },
+      {
+        "h": 1900.054931640625,
+        "w": 3377.875,
+        "x": 247.6031036376953,
+        "y": 195.19192504882812
+      },
+      {
+        "h": 1945.169189453125,
+        "w": 3458.078369140625,
+        "x": 204.6306610107422,
+        "y": 161.31564331054688
+      },
+      {
+        "h": 1985.9871826171875,
+        "w": 3530.6435546875,
+        "x": 165.75083923339844,
+        "y": 130.66567993164062
+      },
+      {
+        "h": 2022.5081787109375,
+        "w": 3595.5703125,
+        "x": 130.963623046875,
+        "y": 103.24201202392578
+      },
+      {
+        "h": 2054.73291015625,
+        "w": 3652.8583984375,
+        "x": 100.26902770996094,
+        "y": 79.04467010498047
+      },
+      {
+        "h": 2082.660888671875,
+        "w": 3702.50830078125,
+        "x": 73.66703796386719,
+        "y": 58.073631286621094
+      },
+      {
+        "h": 2106.292236328125,
+        "w": 3744.51953125,
+        "x": 51.15766525268555,
+        "y": 40.32891082763672
+      },
+      {
+        "h": 2125.627197265625,
+        "w": 3778.892578125,
+        "x": 32.74090576171875,
+        "y": 25.810503005981445
+      },
+      {
+        "h": 2140.665283203125,
+        "w": 3805.626953125,
+        "x": 18.416759490966797,
+        "y": 14.518407821655273
+      },
+      {
+        "h": 2151.40673828125,
+        "w": 3824.72314453125,
+        "x": 8.185226440429688,
+        "y": 6.452625751495361
+      },
+      {
+        "h": 2157.851806640625,
+        "w": 3836.1806640625,
+        "x": 2.046306610107422,
+        "y": 1.6131564378738403
+      },
+      {
+        "h": 2160.0,
+        "w": 3840.0,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "transition_type": "crop_move"
+  },
+  {
+    "accepted_items": 14,
+    "command": "set_crop_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true,
+    "total_items": 19
+  },
+  {
+    "command": "dismiss_crop"
+  },
+  {
+    "command": "dismiss_crop_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true
+  },
+  {
+    "command": "dismiss_crop"
+  },
+  {
+    "command": "dismiss_crop_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true
+  },
+  {
+    "command": "settings_updated_notification",
+    "crop_owner_info": {
+      "crop_owner": "",
+      "start_timestamp": 16282266
+    },
+    "current_crop_region": {
+      "current_crop_height": 2160.0,
+      "current_crop_width": 3840.0,
+      "current_crop_x": 0.0,
+      "current_crop_y": 0.0
+    }
+  },
+  {
+    "command": "dismiss_crop"
+  },
+  {
+    "command": "dismiss_crop_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true
+  },
+  {
+    "command": "ping"
+  },
+  {
+    "command": "ping_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true
+  },
+  {
+    "command": "ping"
+  },
+  {
+    "command": "ping_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true
+  },
+  {
+    "command": "ping"
+  },
+  {
+    "command": "ping_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true
+  },
+  {
+    "command": "ping"
+  },
+  {
+    "command": "ping_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true
+  },
+  {
+    "battery_temperature": 38.16897964477539,
+    "command": "settings_updated_notification"
+  },
+  {
+    "command": "ping"
+  },
+  {
+    "command": "ping_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true
+  },
+  {
+    "command": "stop_ffov_stream"
+  },
+  {
+    "command": "stop_ffov_stream_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true
+  },
+  {
+    "command": "settings_updated_notification",
+    "ffov_bitrate": 0,
+    "pgm_bitrate": 0,
+    "video_bitrate_max_kbps": 0.0,
+    "video_bitrate_min_kbps": 0.0
+  },
+  {
+    "command": "start_ffov_stream"
+  },
+  {
+    "command": "start_ffov_stream_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true
+  },
+  {
+    "command": "settings_updated_notification",
+    "ffov_bitrate": 1250000,
+    "pgm_bitrate": 0,
+    "video_bitrate_max_kbps": 0.0,
+    "video_bitrate_min_kbps": 0.0
+  },
+  {
+    "available_external_audio_inputs": [
+      {
+        "id": "000000000000000000000000000000000002",
+        "name": "Client Microphone",
+        "state": 2,
+        "type": 2
+      }
+    ],
+    "command": "settings_updated_notification"
+  },
+  {
+    "command": "stop_ffov_stream"
+  },
+  {
+    "command": "stop_ffov_stream_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true
+  },
+  {
+    "command": "settings_updated_notification",
+    "ffov_bitrate": 0,
+    "pgm_bitrate": 0,
+    "video_bitrate_max_kbps": 0.0,
+    "video_bitrate_min_kbps": 0.0
+  },
+  {
+    "command": "start_ffov_stream"
+  },
+  {
+    "command": "start_ffov_stream_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true
+  },
+  {
+    "command": "settings_updated_notification",
+    "ffov_bitrate": 1250000,
+    "pgm_bitrate": 0,
+    "video_bitrate_max_kbps": 0.0,
+    "video_bitrate_min_kbps": 0.0
+  },
+  {
+    "available_external_audio_inputs": [
+      {
+        "id": "000000000000000000000000000000000002",
+        "name": "Client Microphone",
+        "state": 2,
+        "type": 2
+      }
+    ],
+    "command": "settings_updated_notification"
+  },
+  {
+    "command": "stop_ffov_stream"
+  },
+  {
+    "command": "stop_ffov_stream_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true
+  },
+  {
+    "command": "settings_updated_notification",
+    "ffov_bitrate": 0,
+    "pgm_bitrate": 0,
+    "video_bitrate_max_kbps": 0.0,
+    "video_bitrate_min_kbps": 0.0
+  },
+  {
+    "command": "ping"
+  },
+  {
+    "command": "ping_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true
+  },
+  {
+    "command": "ping"
+  },
+  {
+    "command": "ping_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true
+  },
+  {
+    "command": "start_ffov_stream"
+  },
+  {
+    "command": "start_ffov_stream_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true
+  },
+  {
+    "command": "settings_updated_notification",
+    "ffov_bitrate": 1250000,
+    "pgm_bitrate": 0,
+    "video_bitrate_max_kbps": 0.0,
+    "video_bitrate_min_kbps": 0.0
+  },
+  {
+    "available_external_audio_inputs": [
+      {
+        "id": "000000000000000000000000000000000002",
+        "name": "Client Microphone",
+        "state": 2,
+        "type": 2
+      }
+    ],
+    "command": "settings_updated_notification"
+  },
+  {
+    "command": "set_settings",
+    "gfx_demo_mode": false
+  },
+  {
+    "command": "set_settings_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true,
+    "unapplied": []
+  },
+  {
+    "command": "stream_config",
+    "custom_rtmp": {
+      "rtmp_url": "rtmp://192.168.69.10/live",
+      "stream_name": "livekey",
+      "stream_title": "mamita"
+    },
+    "metadata": {
+      "force_save_record": false
+    },
+    "pgm_height": 720,
+    "pgm_width": 1280,
+    "qualities": [
+      {
+        "audio_settings": {
+          "bitrate": 48,
+          "channels_per_frame": 2,
+          "constant_bitrate": false,
+          "sample_rate": 48000
+        },
+        "quality_name": "Mobile",
+        "video_settings": {
+          "bitrate": 150,
+          "constant_bitrate": false,
+          "height": 270,
+          "keyframe_interval": 1,
+          "max_bitrate": 300,
+          "min_bitrate": 100,
+          "width": 480
+        }
+      },
+      {
+        "audio_settings": {
+          "bitrate": 96,
+          "channels_per_frame": 2,
+          "constant_bitrate": false,
+          "sample_rate": 48000
+        },
+        "quality_name": "Normal",
+        "video_settings": {
+          "bitrate": 350,
+          "constant_bitrate": false,
+          "height": 288,
+          "keyframe_interval": 1,
+          "max_bitrate": 500,
+          "min_bitrate": 250,
+          "width": 512
+        }
+      },
+      {
+        "audio_settings": {
+          "bitrate": 96,
+          "channels_per_frame": 2,
+          "constant_bitrate": false,
+          "sample_rate": 48000
+        },
+        "quality_name": "Medium",
+        "video_settings": {
+          "bitrate": 550,
+          "constant_bitrate": false,
+          "height": 432,
+          "keyframe_interval": 1,
+          "max_bitrate": 850,
+          "min_bitrate": 450,
+          "width": 768
+        }
+      },
+      {
+        "audio_settings": {
+          "bitrate": 128,
+          "channels_per_frame": 2,
+          "constant_bitrate": false,
+          "sample_rate": 48000
+        },
+        "quality_name": "High",
+        "video_settings": {
+          "bitrate": 1500,
+          "constant_bitrate": false,
+          "height": 480,
+          "keyframe_interval": 1,
+          "max_bitrate": 2500,
+          "min_bitrate": 1000,
+          "width": 848
+        }
+      },
+      {
+        "audio_settings": {
+          "bitrate": 256,
+          "channels_per_frame": 2,
+          "constant_bitrate": false,
+          "sample_rate": 48000
+        },
+        "quality_name": "HD",
+        "video_settings": {
+          "bitrate": 2000,
+          "constant_bitrate": false,
+          "height": 720,
+          "keyframe_interval": 1,
+          "max_bitrate": 3000,
+          "min_bitrate": 1000,
+          "width": 1280
+        }
+      },
+      {
+        "audio_settings": {
+          "bitrate": 256,
+          "channels_per_frame": 2,
+          "constant_bitrate": false,
+          "sample_rate": 48000
+        },
+        "quality_name": "Full HD",
+        "video_settings": {
+          "bitrate": 4500,
+          "constant_bitrate": false,
+          "height": 1080,
+          "keyframe_interval": 1,
+          "max_bitrate": 6750,
+          "min_bitrate": 3500,
+          "width": 1920
+        }
+      }
+    ],
+    "rtmp_settings": {
+      "adaptive_bitrate_avg": 3.0,
+      "adaptive_bitrate_decrease": 4.0,
+      "adaptive_bitrate_drop_down": 0.95,
+      "adaptive_bitrate_increase": 2.0,
+      "adaptive_bitrate_measure": 5.0,
+      "adaptive_bitrate_send_lag": 1.0,
+      "adaptive_bitrate_send_latency": 0.5,
+      "antilag_drop_rest": 500.0,
+      "antilag_max_buffer": 5000.0,
+      "give_up_time": 180000.0,
+      "reconnect_delay": 10000.0,
+      "save_logs": false,
+      "thin_drop_count": 3,
+      "thin_drop_duration": 2
+    },
+    "stream_type": 2
+  },
+  {
+    "command": "settings_updated_notification",
+    "current_stream_config": {
+      "custom_rtmp": {
+        "stream_title": "mamita"
+      },
+      "facebook": {},
+      "linkedin": {},
+      "livestream": {},
+      "periscope": {},
+      "rtmp_settings": {},
+      "vimeo": {},
+      "youtube": {}
+    }
+  },
+  {
+    "command": "stream_config_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true
+  },
+  {
+    "command": "stream_start"
+  },
+  {
+    "command": "studio_mode_did_change_notification",
+    "studio_mode": 0
+  },
+  {
+    "command": "stream_start_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true
+  },
+  {
+    "command": "settings_updated_notification",
+    "streaming": 1
+  },
+  {
+    "command": "settings_updated_notification",
+    "ffov_bitrate": 1250000,
+    "pgm_bitrate": 700000,
+    "video_bitrate_max_kbps": 3500.0,
+    "video_bitrate_min_kbps": 700.0
+  },
+  {
+    "available_external_audio_inputs": [
+      {
+        "id": "000000000000000000000000000000000002",
+        "name": "Client Microphone",
+        "state": 2,
+        "type": 2
+      }
+    ],
+    "command": "settings_updated_notification"
+  },
+  {
+    "command": "settings_updated_notification",
+    "ffov_bitrate": 1250000,
+    "pgm_bitrate": 700000,
+    "video_bitrate_max_kbps": 3500.0,
+    "video_bitrate_min_kbps": 700.0
+  },
+  {
+    "command": "settings_updated_notification",
+    "program_stream_format": {
+      "fps": 30.0,
+      "height": 720.0,
+      "width": 1280.0
+    }
+  },
+  {
+    "command": "stream_backup_started_notification",
+    "stream_backup_file_name": "C:\\DCIM\\100_MEVO\\LIVE0013.MP4"
+  },
+  {
+    "command": "settings_updated_notification",
+    "free_sd_capacity": 15383461888,
+    "total_sd_capacity": 15923150848
+  },
+  {
+    "command": "settings_updated_notification",
+    "streaming": 2,
+    "streaming_data": ""
+  },
+  {
+    "command": "camera_general_notification",
+    "data": {
+      "not_recovered_packets": 0,
+      "stream_health": "Perfect streaming"
+    },
+    "description": "Streaming info",
+    "id": 0
+  },
+  {
+    "antilag_count": 0,
+    "audio_queue_size": 3,
+    "command": "rtmp_queue_notification",
+    "thinout_count": 0,
+    "video_queue_size": 1
+  },
+  {
+    "command": "settings_updated_notification",
+    "ffov_bitrate": 1250000,
+    "pgm_bitrate": 3372000
+  },
+  {
+    "command": "ping"
+  },
+  {
+    "command": "ping_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true
+  },
+  {
+    "command": "settings_updated_notification",
+    "ffov_bitrate": 1250000,
+    "pgm_bitrate": 3212000
+  },
+  {
+    "antilag_count": 0,
+    "audio_queue_size": 8,
+    "command": "rtmp_queue_notification",
+    "thinout_count": 0,
+    "video_queue_size": 8
+  },
+  {
+    "command": "settings_updated_notification",
+    "ffov_bitrate": 1250000,
+    "pgm_bitrate": 3046400
+  },
+  {
+    "command": "settings_updated_notification",
+    "ffov_bitrate": 1250000,
+    "pgm_bitrate": 2919424
+  },
+  {
+    "command": "settings_updated_notification",
+    "ffov_bitrate": 1250000,
+    "pgm_bitrate": 2769527
+  },
+  {
+    "antilag_count": 0,
+    "audio_queue_size": 1,
+    "command": "rtmp_queue_notification",
+    "thinout_count": 0,
+    "video_queue_size": 5
+  },
+  {
+    "command": "settings_updated_notification",
+    "ffov_bitrate": 1250000,
+    "pgm_bitrate": 2744253
+  },
+  {
+    "command": "settings_updated_notification",
+    "ffov_bitrate": 1250000,
+    "pgm_bitrate": 2597362
+  },
+  {
+    "antilag_count": 0,
+    "audio_queue_size": 13,
+    "command": "rtmp_queue_notification",
+    "thinout_count": 0,
+    "video_queue_size": 17
+  },
+  {
+    "command": "settings_updated_notification",
+    "ffov_bitrate": 1250000,
+    "pgm_bitrate": 2420348
+  },
+  {
+    "antilag_count": 0,
+    "audio_queue_size": 30,
+    "command": "rtmp_queue_notification",
+    "thinout_count": 0,
+    "video_queue_size": 28
+  },
+  {
+    "command": "settings_updated_notification",
+    "ffov_bitrate": 1250000,
+    "pgm_bitrate": 2206414
+  },
+  {
+    "antilag_count": 0,
+    "audio_queue_size": 44,
+    "command": "rtmp_queue_notification",
+    "thinout_count": 0,
+    "video_queue_size": 37
+  },
+  {
+    "command": "settings_updated_notification",
+    "ffov_bitrate": 1250000,
+    "pgm_bitrate": 1965037
+  },
+  {
+    "antilag_count": 0,
+    "audio_queue_size": 34,
+    "command": "rtmp_queue_notification",
+    "thinout_count": 0,
+    "video_queue_size": 30
+  },
+  {
+    "antilag_count": 0,
+    "audio_queue_size": 42,
+    "command": "rtmp_queue_notification",
+    "thinout_count": 0,
+    "video_queue_size": 32
+  },
+  {
+    "antilag_count": 0,
+    "audio_queue_size": 30,
+    "command": "rtmp_queue_notification",
+    "thinout_count": 0,
+    "video_queue_size": 19
+  },
+  {
+    "antilag_count": 0,
+    "audio_queue_size": 2,
+    "command": "rtmp_queue_notification",
+    "thinout_count": 0,
+    "video_queue_size": 1
+  },
+  {
+    "command": "ping"
+  },
+  {
+    "command": "camera_general_notification",
+    "data": {
+      "not_recovered_packets": 0,
+      "stream_health": "Perfect streaming"
+    },
+    "description": "Streaming info",
+    "id": 0
+  },
+  {
+    "antilag_count": 0,
+    "audio_queue_size": 3,
+    "command": "rtmp_queue_notification",
+    "thinout_count": 0,
+    "video_queue_size": 1
+  },
+  {
+    "command": "ping_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true
+  },
+  {
+    "command": "camera_general_notification",
+    "data": {
+      "not_recovered_packets": 0,
+      "stream_health": "Perfect streaming"
+    },
+    "description": "Streaming info",
+    "id": 0
+  },
+  {
+    "antilag_count": 0,
+    "audio_queue_size": 2,
+    "command": "rtmp_queue_notification",
+    "thinout_count": 0,
+    "video_queue_size": 1
+  },
+  {
+    "command": "settings_updated_notification",
+    "ffov_bitrate": 1250000,
+    "pgm_bitrate": 2174341
+  },
+  {
+    "command": "ping"
+  },
+  {
+    "command": "ping_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true
+  },
+  {
+    "antilag_count": 0,
+    "audio_queue_size": 2,
+    "command": "rtmp_queue_notification",
+    "thinout_count": 0,
+    "video_queue_size": 1
+  },
+  {
+    "command": "camera_general_notification",
+    "data": {
+      "not_recovered_packets": 0,
+      "stream_health": "Perfect streaming"
+    },
+    "description": "Streaming info",
+    "id": 0
+  },
+  {
+    "command": "cancel_crop_move",
+    "delay_frames": 6
+  },
+  {
+    "command": "cancel_crop_move_result",
+    "current_crop_height": 2160.0,
+    "current_crop_width": 3840.0,
+    "current_crop_x": 0.0,
+    "current_crop_y": 0.0,
+    "discarded_frames": 0,
+    "error_code": 0,
+    "error_description": "",
+    "remaining_frames": 0,
+    "result": true
+  },
+  {
+    "command": "set_crop",
+    "transition_aray": [
+      {
+        "h": 2156.670654296875,
+        "w": 3834.081298828125,
+        "x": 2.178706645965576,
+        "y": 1.8635960817337036
+      },
+      {
+        "h": 2146.68310546875,
+        "w": 3816.325439453125,
+        "x": 8.714826583862305,
+        "y": 7.4543843269348145
+      },
+      {
+        "h": 2130.036865234375,
+        "w": 3786.732177734375,
+        "x": 19.60835838317871,
+        "y": 16.77236557006836
+      },
+      {
+        "h": 2106.732177734375,
+        "w": 3745.3017578125,
+        "x": 34.85930633544922,
+        "y": 29.817537307739258
+      },
+      {
+        "h": 2076.76904296875,
+        "w": 3692.033935546875,
+        "x": 54.4676628112793,
+        "y": 46.589900970458984
+      },
+      {
+        "h": 2040.1473388671875,
+        "w": 3626.928955078125,
+        "x": 78.43343353271484,
+        "y": 67.08946228027344
+      },
+      {
+        "h": 1996.867431640625,
+        "w": 3549.98681640625,
+        "x": 106.75662231445312,
+        "y": 91.31620788574219
+      },
+      {
+        "h": 1953.58740234375,
+        "w": 3473.04443359375,
+        "x": 135.07980346679688,
+        "y": 115.54295349121094
+      },
+      {
+        "h": 1916.9658203125,
+        "w": 3407.939453125,
+        "x": 159.0455780029297,
+        "y": 136.04251098632812
+      },
+      {
+        "h": 1887.002685546875,
+        "w": 3354.671630859375,
+        "x": 178.65394592285156,
+        "y": 152.81488037109375
+      },
+      {
+        "h": 1863.697998046875,
+        "w": 3313.2412109375,
+        "x": 193.90489196777344,
+        "y": 165.86004638671875
+      },
+      {
+        "h": 1847.0517578125,
+        "w": 3283.64794921875,
+        "x": 204.7984161376953,
+        "y": 175.1780242919922
+      },
+      {
+        "h": 1837.0640869140625,
+        "w": 3265.89208984375,
+        "x": 211.33453369140625,
+        "y": 180.76881408691406
+      },
+      {
+        "h": 1833.73486328125,
+        "w": 3259.973388671875,
+        "x": 213.51324462890625,
+        "y": 182.63241577148438
+      }
+    ],
+    "transition_type": "crop_move"
+  },
+  {
+    "command": "settings_updated_notification",
+    "crop_owner_info": {
+      "crop_owner": "4544afdc-b68e-39a2-9c8e-f7712db32c88",
+      "start_timestamp": 2762760
+    }
+  },
+  {
+    "accepted_items": 14,
+    "command": "set_crop_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true,
+    "total_items": 14
+  },
+  {
+    "command": "cancel_crop_move",
+    "delay_frames": 6
+  },
+  {
+    "command": "cancel_crop_move_result",
+    "current_crop_height": 1916.9658203125,
+    "current_crop_width": 3407.939453125,
+    "current_crop_x": 159.0455780029297,
+    "current_crop_y": 136.04251098632812,
+    "discarded_frames": 5,
+    "error_code": 0,
+    "error_description": "",
+    "remaining_frames": 6,
+    "result": true
+  },
+  {
+    "command": "set_crop",
+    "transition_aray": [
+      {
+        "h": 1845.43115234375,
+        "w": 3280.7666015625,
+        "x": 214.77777099609375,
+        "y": 176.8343963623047
+      },
+      {
+        "h": 1779.1953125,
+        "w": 3163.013916015625,
+        "x": 266.38165283203125,
+        "y": 214.60467529296875
+      },
+      {
+        "h": 1718.2584228515625,
+        "w": 3054.681640625,
+        "x": 313.85723876953125,
+        "y": 249.3533172607422
+      },
+      {
+        "h": 1662.620361328125,
+        "w": 2955.76953125,
+        "x": 357.2044982910156,
+        "y": 281.0803527832031
+      },
+      {
+        "h": 1612.2811279296875,
+        "w": 2866.27783203125,
+        "x": 396.4234619140625,
+        "y": 309.7857360839844
+      },
+      {
+        "h": 1567.24072265625,
+        "w": 2786.205810546875,
+        "x": 431.51409912109375,
+        "y": 335.4695129394531
+      },
+      {
+        "h": 1527.499267578125,
+        "w": 2715.55419921875,
+        "x": 462.4764404296875,
+        "y": 358.1316833496094
+      },
+      {
+        "h": 1493.056640625,
+        "w": 2654.322998046875,
+        "x": 489.3104553222656,
+        "y": 377.772216796875
+      },
+      {
+        "h": 1463.9129638671875,
+        "w": 2602.51171875,
+        "x": 512.0161743164062,
+        "y": 394.3911437988281
+      },
+      {
+        "h": 1440.0679931640625,
+        "w": 2560.120849609375,
+        "x": 530.5935668945312,
+        "y": 407.9884338378906
+      },
+      {
+        "h": 1421.52197265625,
+        "w": 2527.150146484375,
+        "x": 545.0426635742188,
+        "y": 418.5641174316406
+      },
+      {
+        "h": 1408.27490234375,
+        "w": 2503.599609375,
+        "x": 555.3634643554688,
+        "y": 426.1181640625
+      },
+      {
+        "h": 1400.3265380859375,
+        "w": 2489.469482421875,
+        "x": 561.555908203125,
+        "y": 430.6506042480469
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 563.6200561523438,
+        "y": 432.1614074707031
+      }
+    ],
+    "transition_type": "crop_move"
+  },
+  {
+    "accepted_items": 14,
+    "command": "set_crop_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true,
+    "total_items": 19
+  },
+  {
+    "command": "cancel_crop_move",
+    "delay_frames": 6
+  },
+  {
+    "command": "cancel_crop_move_result",
+    "current_crop_height": 1779.1953125,
+    "current_crop_width": 3163.013916015625,
+    "current_crop_x": 266.38165283203125,
+    "current_crop_y": 214.60467529296875,
+    "discarded_frames": 12,
+    "error_code": 0,
+    "error_description": "",
+    "remaining_frames": 6,
+    "result": true
+  },
+  {
+    "command": "set_crop",
+    "transition_aray": [
+      {
+        "h": 1726.639404296875,
+        "w": 3069.5810546875,
+        "x": 311.2537841796875,
+        "y": 244.16094970703125
+      },
+      {
+        "h": 1677.976318359375,
+        "w": 2983.06884765625,
+        "x": 352.80206298828125,
+        "y": 271.52789306640625
+      },
+      {
+        "h": 1633.2061767578125,
+        "w": 2903.477783203125,
+        "x": 391.0264587402344,
+        "y": 296.7054748535156
+      },
+      {
+        "h": 1592.3292236328125,
+        "w": 2830.8076171875,
+        "x": 425.927001953125,
+        "y": 319.6936950683594
+      },
+      {
+        "h": 1555.3453369140625,
+        "w": 2765.058349609375,
+        "x": 457.5036926269531,
+        "y": 340.4925537109375
+      },
+      {
+        "h": 1522.2545166015625,
+        "w": 2706.230224609375,
+        "x": 485.7565002441406,
+        "y": 359.10205078125
+      },
+      {
+        "h": 1493.056640625,
+        "w": 2654.322998046875,
+        "x": 510.6854553222656,
+        "y": 375.522216796875
+      },
+      {
+        "h": 1467.751953125,
+        "w": 2609.336669921875,
+        "x": 532.29052734375,
+        "y": 389.7530212402344
+      },
+      {
+        "h": 1446.3402099609375,
+        "w": 2571.271484375,
+        "x": 550.57177734375,
+        "y": 401.7944641113281
+      },
+      {
+        "h": 1428.8214111328125,
+        "w": 2540.126953125,
+        "x": 565.5291748046875,
+        "y": 411.6465759277344
+      },
+      {
+        "h": 1415.19580078125,
+        "w": 2515.903564453125,
+        "x": 577.1626586914062,
+        "y": 419.309326171875
+      },
+      {
+        "h": 1405.4632568359375,
+        "w": 2498.601318359375,
+        "x": 585.4723510742188,
+        "y": 424.7826843261719
+      },
+      {
+        "h": 1399.6236572265625,
+        "w": 2488.2197265625,
+        "x": 590.4581298828125,
+        "y": 428.0667419433594
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 592.1200561523438,
+        "y": 429.1614074707031
+      }
+    ],
+    "transition_type": "crop_move"
+  },
+  {
+    "accepted_items": 14,
+    "command": "set_crop_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true,
+    "total_items": 19
+  },
+  {
+    "command": "cancel_crop_move",
+    "delay_frames": 6
+  },
+  {
+    "command": "cancel_crop_move_result",
+    "current_crop_height": 1726.639404296875,
+    "current_crop_width": 3069.5810546875,
+    "current_crop_x": 311.2537841796875,
+    "current_crop_y": 244.16094970703125,
+    "discarded_frames": 13,
+    "error_code": 0,
+    "error_description": "",
+    "remaining_frames": 6,
+    "result": true
+  },
+  {
+    "command": "set_crop",
+    "transition_aray": [
+      {
+        "h": 1681.322998046875,
+        "w": 2989.01904296875,
+        "x": 349.7379150390625,
+        "y": 270.47222900390625
+      },
+      {
+        "h": 1639.36376953125,
+        "w": 2914.42431640625,
+        "x": 385.3713684082031,
+        "y": 294.83453369140625
+      },
+      {
+        "h": 1600.760986328125,
+        "w": 2845.797119140625,
+        "x": 418.1541442871094,
+        "y": 317.24786376953125
+      },
+      {
+        "h": 1565.5150146484375,
+        "w": 2783.1376953125,
+        "x": 448.08624267578125,
+        "y": 337.7121887207031
+      },
+      {
+        "h": 1533.6258544921875,
+        "w": 2726.44580078125,
+        "x": 475.16766357421875,
+        "y": 356.2275390625
+      },
+      {
+        "h": 1505.0933837890625,
+        "w": 2675.721435546875,
+        "x": 499.3984069824219,
+        "y": 372.7939147949219
+      },
+      {
+        "h": 1479.917724609375,
+        "w": 2630.964599609375,
+        "x": 520.7785034179688,
+        "y": 387.4112854003906
+      },
+      {
+        "h": 1458.098876953125,
+        "w": 2592.175537109375,
+        "x": 539.307861328125,
+        "y": 400.0796813964844
+      },
+      {
+        "h": 1439.63671875,
+        "w": 2559.35400390625,
+        "x": 554.9866333007812,
+        "y": 410.7991027832031
+      },
+      {
+        "h": 1424.53125,
+        "w": 2532.499755859375,
+        "x": 567.8146362304688,
+        "y": 419.56951904296875
+      },
+      {
+        "h": 1412.7825927734375,
+        "w": 2511.61328125,
+        "x": 577.7919921875,
+        "y": 426.3909912109375
+      },
+      {
+        "h": 1404.3907470703125,
+        "w": 2496.6943359375,
+        "x": 584.918701171875,
+        "y": 431.263427734375
+      },
+      {
+        "h": 1399.3555908203125,
+        "w": 2487.7431640625,
+        "x": 589.1947021484375,
+        "y": 434.1869201660156
+      },
+      {
+        "h": 1397.67724609375,
+        "w": 2484.75927734375,
+        "x": 590.6200561523438,
+        "y": 435.1614074707031
+      }
+    ],
+    "transition_type": "crop_move"
+  },
+  {
+    "accepted_items": 14,
+    "command": "set_crop_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true,
+    "total_items": 18
+  },
+  {
+    "command": "cancel_crop_move",
+    "delay_frames": 6
+  },
+  {
+    "command": "cancel_crop_move_result",
+    "current_crop_height": 1639.36376953125,
+    "current_crop_width": 2914.42431640625,
+    "current_crop_x": 385.3713684082031,
+    "current_crop_y": 294.83453369140625,
+    "discarded_frames": 12,
+    "error_code": 0,
+    "error_description": "",
+    "remaining_frames": 6,
+    "result": true
+  },
+  {
+    "command": "set_crop",
+    "transition_aray": [
+      {
+        "h": 1606.070068359375,
+        "w": 2855.235595703125,
+        "x": 413.2321472167969,
+        "y": 314.3719177246094
+      },
+      {
+        "h": 1575.24267578125,
+        "w": 2800.43115234375,
+        "x": 439.0291748046875,
+        "y": 332.4620666503906
+      },
+      {
+        "h": 1546.881591796875,
+        "w": 2750.01171875,
+        "x": 462.762451171875,
+        "y": 349.10504150390625
+      },
+      {
+        "h": 1520.986572265625,
+        "w": 2703.97607421875,
+        "x": 484.43194580078125,
+        "y": 364.3007507324219
+      },
+      {
+        "h": 1497.5577392578125,
+        "w": 2662.324951171875,
+        "x": 504.0376892089844,
+        "y": 378.0492858886719
+      },
+      {
+        "h": 1476.59521484375,
+        "w": 2625.05810546875,
+        "x": 521.5796508789062,
+        "y": 390.3505859375
+      },
+      {
+        "h": 1458.0987548828125,
+        "w": 2592.175537109375,
+        "x": 537.057861328125,
+        "y": 401.2046813964844
+      },
+      {
+        "h": 1442.0684814453125,
+        "w": 2563.67724609375,
+        "x": 550.4723510742188,
+        "y": 410.611572265625
+      },
+      {
+        "h": 1428.5045166015625,
+        "w": 2539.5634765625,
+        "x": 561.8230590820312,
+        "y": 418.5712585449219
+      },
+      {
+        "h": 1417.4066162109375,
+        "w": 2519.833984375,
+        "x": 571.1099853515625,
+        "y": 425.0837097167969
+      },
+      {
+        "h": 1408.7750244140625,
+        "w": 2504.48876953125,
+        "x": 578.3331298828125,
+        "y": 430.1489562988281
+      },
+      {
+        "h": 1402.6094970703125,
+        "w": 2493.52783203125,
+        "x": 583.4925537109375,
+        "y": 433.7669677734375
+      },
+      {
+        "h": 1398.910400390625,
+        "w": 2486.951416015625,
+        "x": 586.5881958007812,
+        "y": 435.93780517578125
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 587.6200561523438,
+        "y": 436.6614074707031
+      }
+    ],
+    "transition_type": "crop_move"
+  },
+  {
+    "accepted_items": 14,
+    "command": "set_crop_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true,
+    "total_items": 19
+  },
+  {
+    "command": "cancel_crop_move",
+    "delay_frames": 6
+  },
+  {
+    "command": "cancel_crop_move_result",
+    "current_crop_height": 1546.881591796875,
+    "current_crop_width": 2750.01171875,
+    "current_crop_x": 462.762451171875,
+    "current_crop_y": 349.10504150390625,
+    "discarded_frames": 11,
+    "error_code": 0,
+    "error_description": "",
+    "remaining_frames": 6,
+    "result": true
+  },
+  {
+    "command": "set_crop",
+    "transition_aray": [
+      {
+        "h": 1526.327880859375,
+        "w": 2713.4716796875,
+        "x": 479.96221923828125,
+        "y": 361.1663513183594
+      },
+      {
+        "h": 1507.296630859375,
+        "w": 2679.638427734375,
+        "x": 495.887939453125,
+        "y": 372.3342590332031
+      },
+      {
+        "h": 1489.7879638671875,
+        "w": 2648.511962890625,
+        "x": 510.5395812988281,
+        "y": 382.6087341308594
+      },
+      {
+        "h": 1473.8018798828125,
+        "w": 2620.092041015625,
+        "x": 523.9171752929688,
+        "y": 391.9897766113281
+      },
+      {
+        "h": 1459.338134765625,
+        "w": 2594.37890625,
+        "x": 536.020751953125,
+        "y": 400.4773864746094
+      },
+      {
+        "h": 1446.39697265625,
+        "w": 2571.37255859375,
+        "x": 546.8502197265625,
+        "y": 408.0715637207031
+      },
+      {
+        "h": 1434.978271484375,
+        "w": 2551.072265625,
+        "x": 556.4056396484375,
+        "y": 414.7723083496094
+      },
+      {
+        "h": 1425.08203125,
+        "w": 2533.47900390625,
+        "x": 564.68701171875,
+        "y": 420.5796203613281
+      },
+      {
+        "h": 1416.708251953125,
+        "w": 2518.592529296875,
+        "x": 571.6943359375,
+        "y": 425.4934997558594
+      },
+      {
+        "h": 1409.8570556640625,
+        "w": 2506.41259765625,
+        "x": 577.4276123046875,
+        "y": 429.5139465332031
+      },
+      {
+        "h": 1404.5283203125,
+        "w": 2496.939208984375,
+        "x": 581.8867797851562,
+        "y": 432.6409606933594
+      },
+      {
+        "h": 1400.72216796875,
+        "w": 2490.172607421875,
+        "x": 585.0719604492188,
+        "y": 434.8745422363281
+      },
+      {
+        "h": 1398.4383544921875,
+        "w": 2486.11279296875,
+        "x": 586.9830322265625,
+        "y": 436.2146911621094
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 587.6200561523438,
+        "y": 436.6614074707031
+      }
+    ],
+    "transition_type": "crop_move"
+  },
+  {
+    "accepted_items": 14,
+    "command": "set_crop_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true,
+    "total_items": 19
+  },
+  {
+    "command": "dismiss_crop"
+  },
+  {
+    "command": "dismiss_crop_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true
+  },
+  {
+    "command": "settings_updated_notification",
+    "crop_owner_info": {
+      "crop_owner": "",
+      "start_timestamp": 2855853
+    },
+    "current_crop_region": {
+      "current_crop_height": 1397.6771240234375,
+      "current_crop_width": 2484.75927734375,
+      "current_crop_x": 587.6200561523438,
+      "current_crop_y": 436.6614074707031
+    }
+  },
+  {
+    "command": "dismiss_crop"
+  },
+  {
+    "command": "dismiss_crop_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true
+  },
+  {
+    "antilag_count": 0,
+    "audio_queue_size": 1,
+    "command": "rtmp_queue_notification",
+    "thinout_count": 0,
+    "video_queue_size": 2
+  },
+  {
+    "command": "settings_updated_notification",
+    "ffov_bitrate": 1250000,
+    "pgm_bitrate": 2404575
+  },
+  {
+    "command": "camera_general_notification",
+    "data": {
+      "not_recovered_packets": 0,
+      "stream_health": "Perfect streaming"
+    },
+    "description": "Streaming info",
+    "id": 0
+  },
+  {
+    "antilag_count": 0,
+    "audio_queue_size": 3,
+    "command": "rtmp_queue_notification",
+    "thinout_count": 0,
+    "video_queue_size": 1
+  },
+  {
+    "command": "cancel_crop_move",
+    "delay_frames": 6
+  },
+  {
+    "command": "cancel_crop_move_result",
+    "current_crop_height": 1397.6771240234375,
+    "current_crop_width": 2484.75927734375,
+    "current_crop_x": 587.6200561523438,
+    "current_crop_y": 436.6614074707031,
+    "discarded_frames": 0,
+    "error_code": 0,
+    "error_description": "",
+    "remaining_frames": 0,
+    "result": true
+  },
+  {
+    "command": "set_crop",
+    "transition_aray": [
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 588.8751831054688,
+        "y": 435.9879455566406
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 592.6404418945312,
+        "y": 433.967529296875
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 598.9159545898438,
+        "y": 430.6001892089844
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 607.70166015625,
+        "y": 425.8858947753906
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 618.9976196289062,
+        "y": 419.8246765136719
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 632.8037109375,
+        "y": 412.41650390625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 649.1200561523438,
+        "y": 403.6614074707031
+      },
+      {
+        "h": 1397.67724609375,
+        "w": 2484.75927734375,
+        "x": 665.4364013671875,
+        "y": 394.90631103515625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 679.2424926757812,
+        "y": 387.4981384277344
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 690.5384521484375,
+        "y": 381.4369201660156
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 699.3241577148438,
+        "y": 376.7226257324219
+      },
+      {
+        "h": 1397.67724609375,
+        "w": 2484.75927734375,
+        "x": 705.5996704101562,
+        "y": 373.35528564453125
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 709.3649291992188,
+        "y": 371.3348693847656
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 710.6200561523438,
+        "y": 370.6614074707031
+      }
+    ],
+    "transition_type": "crop_move"
+  },
+  {
+    "command": "settings_updated_notification",
+    "crop_owner_info": {
+      "crop_owner": "4544afdc-b68e-39a2-9c8e-f7712db32c88",
+      "start_timestamp": 3627624
+    }
+  },
+  {
+    "accepted_items": 14,
+    "command": "set_crop_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true,
+    "total_items": 14
+  },
+  {
+    "command": "cancel_crop_move",
+    "delay_frames": 6
+  },
+  {
+    "command": "cancel_crop_move_result",
+    "current_crop_height": 1397.6771240234375,
+    "current_crop_width": 2484.75927734375,
+    "current_crop_x": 679.2424926757812,
+    "current_crop_y": 387.4981384277344,
+    "discarded_frames": 5,
+    "error_code": 0,
+    "error_description": "",
+    "remaining_frames": 6,
+    "result": true
+  },
+  {
+    "command": "set_crop",
+    "transition_aray": [
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 725.3047485351562,
+        "y": 363.6889953613281
+      },
+      {
+        "h": 1397.677001953125,
+        "w": 2484.75927734375,
+        "x": 767.9548950195312,
+        "y": 341.64349365234375
+      },
+      {
+        "h": 1397.67724609375,
+        "w": 2484.75927734375,
+        "x": 807.193115234375,
+        "y": 321.36163330078125
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 843.019287109375,
+        "y": 302.8434143066406
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 875.4334106445312,
+        "y": 286.0888366699219
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 904.435546875,
+        "y": 271.097900390625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 930.0256958007812,
+        "y": 257.87060546875
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 952.2037963867188,
+        "y": 246.4069366455078
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 970.9698486328125,
+        "y": 236.7069091796875
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 986.3239135742188,
+        "y": 228.77052307128906
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 998.2659912109375,
+        "y": 222.59779357910156
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1006.7960205078125,
+        "y": 218.18869018554688
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1011.9140625,
+        "y": 215.54322814941406
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1013.6200561523438,
+        "y": 214.66140747070312
+      }
+    ],
+    "transition_type": "crop_move"
+  },
+  {
+    "accepted_items": 14,
+    "command": "set_crop_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true,
+    "total_items": 19
+  },
+  {
+    "command": "cancel_crop_move",
+    "delay_frames": 6
+  },
+  {
+    "command": "cancel_crop_move_result",
+    "current_crop_height": 1397.6771240234375,
+    "current_crop_width": 2484.75927734375,
+    "current_crop_x": 725.3047485351562,
+    "current_crop_y": 363.6889953613281,
+    "discarded_frames": 13,
+    "error_code": 0,
+    "error_description": "",
+    "remaining_frames": 6,
+    "result": true
+  },
+  {
+    "command": "set_crop",
+    "transition_aray": [
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 779.899169921875,
+        "y": 336.1341857910156
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 830.4496459960938,
+        "y": 310.6204528808594
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 876.9559936523438,
+        "y": 287.1478271484375
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 919.4183959960938,
+        "y": 265.71630859375
+      },
+      {
+        "h": 1397.677001953125,
+        "w": 2484.75927734375,
+        "x": 957.8367309570312,
+        "y": 246.32586669921875
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 992.2109985351562,
+        "y": 228.97654724121094
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1022.541259765625,
+        "y": 213.66830444335938
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1048.8275146484375,
+        "y": 200.4011688232422
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1071.0697021484375,
+        "y": 189.1751251220703
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1089.267822265625,
+        "y": 179.9901885986328
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1103.4219970703125,
+        "y": 172.84634399414062
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1113.5321044921875,
+        "y": 167.7436065673828
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1119.59814453125,
+        "y": 164.6819610595703
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1121.6201171875,
+        "y": 163.66140747070312
+      }
+    ],
+    "transition_type": "crop_move"
+  },
+  {
+    "accepted_items": 14,
+    "command": "set_crop_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true,
+    "total_items": 20
+  },
+  {
+    "command": "cancel_crop_move",
+    "delay_frames": 6
+  },
+  {
+    "command": "cancel_crop_move_result",
+    "current_crop_height": 1397.6771240234375,
+    "current_crop_width": 2484.75927734375,
+    "current_crop_x": 779.899169921875,
+    "current_crop_y": 336.1341857910156,
+    "discarded_frames": 13,
+    "error_code": 0,
+    "error_description": "",
+    "remaining_frames": 6,
+    "result": true
+  },
+  {
+    "command": "set_crop",
+    "transition_aray": [
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 838.54443359375,
+        "y": 306.5894470214844
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 892.8455810546875,
+        "y": 279.2332458496094
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 942.8026123046875,
+        "y": 254.06552124023438
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 988.4155883789062,
+        "y": 231.08628845214844
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1029.6844482421875,
+        "y": 210.29556274414062
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1066.6092529296875,
+        "y": 191.69332885742188
+      },
+      {
+        "h": 1397.67724609375,
+        "w": 2484.75927734375,
+        "x": 1099.18994140625,
+        "y": 175.27960205078125
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1127.426513671875,
+        "y": 161.0543670654297
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1151.3189697265625,
+        "y": 149.0176239013672
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1170.867431640625,
+        "y": 139.1693878173828
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1186.0716552734375,
+        "y": 131.5096435546875
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1196.931884765625,
+        "y": 126.03840637207031
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1203.4481201171875,
+        "y": 122.75565338134766
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1205.6201171875,
+        "y": 121.66140747070312
+      }
+    ],
+    "transition_type": "crop_move"
+  },
+  {
+    "accepted_items": 14,
+    "command": "set_crop_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true,
+    "total_items": 19
+  },
+  {
+    "command": "cancel_crop_move",
+    "delay_frames": 6
+  },
+  {
+    "command": "cancel_crop_move_result",
+    "current_crop_height": 1397.6771240234375,
+    "current_crop_width": 2484.75927734375,
+    "current_crop_x": 838.54443359375,
+    "current_crop_y": 306.5894470214844,
+    "discarded_frames": 13,
+    "error_code": 0,
+    "error_description": "",
+    "remaining_frames": 6,
+    "result": true
+  },
+  {
+    "command": "set_crop",
+    "transition_aray": [
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 897.3762817382812,
+        "y": 276.5687561035156
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 951.8502197265625,
+        "y": 248.77182006835938
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1001.9662475585938,
+        "y": 223.19862365722656
+      },
+      {
+        "h": 1397.67724609375,
+        "w": 2484.75927734375,
+        "x": 1047.724365234375,
+        "y": 199.84918212890625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1089.12451171875,
+        "y": 178.7235107421875
+      },
+      {
+        "h": 1397.67724609375,
+        "w": 2484.75927734375,
+        "x": 1126.1668701171875,
+        "y": 159.82159423828125
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1158.8511962890625,
+        "y": 143.14341735839844
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1187.1776123046875,
+        "y": 128.6890106201172
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1211.1461181640625,
+        "y": 116.4583511352539
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1230.7568359375,
+        "y": 106.45145416259766
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1246.009521484375,
+        "y": 98.66830444335938
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1256.904296875,
+        "y": 93.10891723632812
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1263.441162109375,
+        "y": 89.77328491210938
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1265.6201171875,
+        "y": 88.66140747070312
+      }
+    ],
+    "transition_type": "crop_move"
+  },
+  {
+    "accepted_items": 14,
+    "command": "set_crop_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true,
+    "total_items": 19
+  },
+  {
+    "command": "cancel_crop_move",
+    "delay_frames": 6
+  },
+  {
+    "command": "cancel_crop_move_result",
+    "current_crop_height": 1397.6771240234375,
+    "current_crop_width": 2484.75927734375,
+    "current_crop_x": 897.3762817382812,
+    "current_crop_y": 276.5687561035156,
+    "discarded_frames": 13,
+    "error_code": 0,
+    "error_description": "",
+    "remaining_frames": 6,
+    "result": true
+  },
+  {
+    "command": "set_crop",
+    "transition_aray": [
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 952.649658203125,
+        "y": 248.6172332763672
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1003.8286743164062,
+        "y": 222.73619079589844
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1050.9134521484375,
+        "y": 198.92564392089844
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1093.90380859375,
+        "y": 177.18556213378906
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1132.7999267578125,
+        "y": 157.51597595214844
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1167.6016845703125,
+        "y": 139.9168701171875
+      },
+      {
+        "h": 1397.67724609375,
+        "w": 2484.75927734375,
+        "x": 1198.30908203125,
+        "y": 124.38824462890625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1224.922119140625,
+        "y": 110.93010711669922
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1247.44091796875,
+        "y": 99.54244995117188
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1265.8653564453125,
+        "y": 90.22527313232422
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1280.195556640625,
+        "y": 82.97858428955078
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1290.431396484375,
+        "y": 77.80237579345703
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1296.5728759765625,
+        "y": 74.69664764404297
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1298.6199951171875,
+        "y": 73.66140747070312
+      }
+    ],
+    "transition_type": "crop_move"
+  },
+  {
+    "accepted_items": 14,
+    "command": "set_crop_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true,
+    "total_items": 19
+  },
+  {
+    "command": "cancel_crop_move",
+    "delay_frames": 6
+  },
+  {
+    "command": "cancel_crop_move_result",
+    "current_crop_height": 1397.6771240234375,
+    "current_crop_width": 2484.75927734375,
+    "current_crop_x": 952.649658203125,
+    "current_crop_y": 248.6172332763672,
+    "discarded_frames": 13,
+    "error_code": 0,
+    "error_description": "",
+    "remaining_frames": 6,
+    "result": true
+  },
+  {
+    "command": "set_crop",
+    "transition_aray": [
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1001.1353759765625,
+        "y": 224.1029052734375
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1046.029541015625,
+        "y": 201.4044647216797
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1087.332275390625,
+        "y": 180.5218963623047
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1125.0433349609375,
+        "y": 161.4552001953125
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1159.1629638671875,
+        "y": 144.20437622070312
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1189.6910400390625,
+        "y": 128.76943969726562
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1216.62744140625,
+        "y": 115.1503677368164
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1239.9725341796875,
+        "y": 103.34717559814453
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1259.7259521484375,
+        "y": 93.35985565185547
+      },
+      {
+        "h": 1397.677001953125,
+        "w": 2484.75927734375,
+        "x": 1275.8878173828125,
+        "y": 85.18841552734375
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1288.458251953125,
+        "y": 78.83284759521484
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1297.43701171875,
+        "y": 74.29315948486328
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1302.8243408203125,
+        "y": 71.56934356689453
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1304.6201171875,
+        "y": 70.66140747070312
+      }
+    ],
+    "transition_type": "crop_move"
+  },
+  {
+    "accepted_items": 14,
+    "command": "set_crop_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true,
+    "total_items": 19
+  },
+  {
+    "command": "cancel_crop_move",
+    "delay_frames": 6
+  },
+  {
+    "command": "cancel_crop_move_result",
+    "current_crop_height": 1397.6771240234375,
+    "current_crop_width": 2484.75927734375,
+    "current_crop_x": 1159.1629638671875,
+    "current_crop_y": 144.20437622070312,
+    "discarded_frames": 9,
+    "error_code": 0,
+    "error_description": "",
+    "remaining_frames": 6,
+    "result": true
+  },
+  {
+    "command": "set_crop",
+    "transition_aray": [
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1179.200439453125,
+        "y": 134.07345581054688
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1197.753662109375,
+        "y": 124.69297790527344
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1214.822509765625,
+        "y": 116.06293487548828
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1230.4072265625,
+        "y": 108.18333435058594
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1244.5076904296875,
+        "y": 101.05416870117188
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1257.1239013671875,
+        "y": 94.6754379272461
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1268.255859375,
+        "y": 89.04714965820312
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1277.9034423828125,
+        "y": 84.16929626464844
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1286.06689453125,
+        "y": 80.04188537597656
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1292.74609375,
+        "y": 76.6649169921875
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1297.94091796875,
+        "y": 74.03838348388672
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1301.651611328125,
+        "y": 72.16228485107422
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1303.8779296875,
+        "y": 71.03662872314453
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1304.6201171875,
+        "y": 70.66140747070312
+      }
+    ],
+    "transition_type": "crop_move"
+  },
+  {
+    "accepted_items": 14,
+    "command": "set_crop_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true,
+    "total_items": 20
+  },
+  {
+    "command": "dismiss_crop"
+  },
+  {
+    "command": "dismiss_crop_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true
+  },
+  {
+    "command": "settings_updated_notification",
+    "crop_owner_info": {
+      "crop_owner": "",
+      "start_timestamp": 3726723
+    },
+    "current_crop_region": {
+      "current_crop_height": 1397.6771240234375,
+      "current_crop_width": 2484.75927734375,
+      "current_crop_x": 1304.6201171875,
+      "current_crop_y": 70.66140747070312
+    }
+  },
+  {
+    "command": "dismiss_crop"
+  },
+  {
+    "command": "dismiss_crop_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true
+  },
+  {
+    "battery_temperature": 38.67695999145508,
+    "command": "settings_updated_notification"
+  },
+  {
+    "command": "camera_general_notification",
+    "data": {
+      "not_recovered_packets": 0,
+      "stream_health": "Perfect streaming"
+    },
+    "description": "Streaming info",
+    "id": 0
+  },
+  {
+    "antilag_count": 0,
+    "audio_queue_size": 1,
+    "command": "rtmp_queue_notification",
+    "thinout_count": 0,
+    "video_queue_size": 2
+  },
+  {
+    "command": "cancel_crop_move",
+    "delay_frames": 6
+  },
+  {
+    "command": "cancel_crop_move_result",
+    "current_crop_height": 1397.6771240234375,
+    "current_crop_width": 2484.75927734375,
+    "current_crop_x": 1304.6201171875,
+    "current_crop_y": 70.66140747070312,
+    "discarded_frames": 0,
+    "error_code": 0,
+    "error_description": "",
+    "remaining_frames": 0,
+    "result": true
+  },
+  {
+    "command": "set_crop",
+    "transition_aray": [
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1304.9874267578125,
+        "y": 72.03895568847656
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1306.0894775390625,
+        "y": 76.1716079711914
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1307.92626953125,
+        "y": 83.05936431884766
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1310.4976806640625,
+        "y": 92.70222473144531
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1313.8038330078125,
+        "y": 105.10018157958984
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1317.8446044921875,
+        "y": 120.25324249267578
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1322.6201171875,
+        "y": 138.16140747070312
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1327.395751953125,
+        "y": 156.06956481933594
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1331.4365234375,
+        "y": 171.22262573242188
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1334.74267578125,
+        "y": 183.62059020996094
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1337.3140869140625,
+        "y": 193.26344299316406
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1339.15087890625,
+        "y": 200.1511993408203
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1340.2529296875,
+        "y": 204.2838592529297
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1340.6202392578125,
+        "y": 205.66140747070312
+      }
+    ],
+    "transition_type": "crop_move"
+  },
+  {
+    "command": "settings_updated_notification",
+    "crop_owner_info": {
+      "crop_owner": "4544afdc-b68e-39a2-9c8e-f7712db32c88",
+      "start_timestamp": 4162158
+    }
+  },
+  {
+    "accepted_items": 14,
+    "command": "set_crop_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true,
+    "total_items": 14
+  },
+  {
+    "command": "cancel_crop_move",
+    "delay_frames": 6
+  },
+  {
+    "command": "cancel_crop_move_result",
+    "current_crop_height": 1397.6771240234375,
+    "current_crop_width": 2484.75927734375,
+    "current_crop_x": 1331.4365234375,
+    "current_crop_y": 171.22262573242188,
+    "discarded_frames": 5,
+    "error_code": 0,
+    "error_description": "",
+    "remaining_frames": 6,
+    "result": true
+  },
+  {
+    "command": "set_crop",
+    "transition_aray": [
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1334.7156982421875,
+        "y": 210.2677764892578
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1337.751953125,
+        "y": 246.42066955566406
+      },
+      {
+        "h": 1397.677001953125,
+        "w": 2484.75927734375,
+        "x": 1340.5452880859375,
+        "y": 279.68133544921875
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1343.0958251953125,
+        "y": 310.0497741699219
+      },
+      {
+        "h": 1397.677001953125,
+        "w": 2484.75927734375,
+        "x": 1345.4033203125,
+        "y": 337.5260009765625
+      },
+      {
+        "h": 1397.677001953125,
+        "w": 2484.75927734375,
+        "x": 1347.468017578125,
+        "y": 362.1099853515625
+      },
+      {
+        "h": 1397.677001953125,
+        "w": 2484.75927734375,
+        "x": 1349.289794921875,
+        "y": 383.8017272949219
+      },
+      {
+        "h": 1397.677001953125,
+        "w": 2484.75927734375,
+        "x": 1350.86865234375,
+        "y": 402.6012268066406
+      },
+      {
+        "h": 1397.677001953125,
+        "w": 2484.75927734375,
+        "x": 1352.20458984375,
+        "y": 418.5085144042969
+      },
+      {
+        "h": 1397.677001953125,
+        "w": 2484.75927734375,
+        "x": 1353.297607421875,
+        "y": 431.5235595703125
+      },
+      {
+        "h": 1397.677001953125,
+        "w": 2484.75927734375,
+        "x": 1354.1478271484375,
+        "y": 441.6463623046875
+      },
+      {
+        "h": 1397.677001953125,
+        "w": 2484.75927734375,
+        "x": 1354.7550048828125,
+        "y": 448.876953125
+      },
+      {
+        "h": 1397.677001953125,
+        "w": 2484.75927734375,
+        "x": 1355.119384765625,
+        "y": 453.2153015136719
+      },
+      {
+        "h": 1397.677001953125,
+        "w": 2484.75927734375,
+        "x": 1355.2408447265625,
+        "y": 454.6614074707031
+      }
+    ],
+    "transition_type": "crop_move"
+  },
+  {
+    "accepted_items": 14,
+    "command": "set_crop_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true,
+    "total_items": 17
+  },
+  {
+    "command": "cancel_crop_move",
+    "delay_frames": 6
+  },
+  {
+    "command": "cancel_crop_move_result",
+    "current_crop_height": 1397.677001953125,
+    "current_crop_width": 2484.75927734375,
+    "current_crop_x": 1340.5452880859375,
+    "current_crop_y": 279.68133544921875,
+    "discarded_frames": 11,
+    "error_code": 0,
+    "error_description": "",
+    "remaining_frames": 6,
+    "result": true
+  },
+  {
+    "command": "set_crop",
+    "transition_aray": [
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1341.7431640625,
+        "y": 329.408203125
+      },
+      {
+        "h": 1397.677001953125,
+        "w": 2484.75927734375,
+        "x": 1342.852294921875,
+        "y": 375.4515686035156
+      },
+      {
+        "h": 1397.677001953125,
+        "w": 2484.75927734375,
+        "x": 1343.8726806640625,
+        "y": 417.8114929199219
+      },
+      {
+        "h": 1397.677001953125,
+        "w": 2484.75927734375,
+        "x": 1344.8043212890625,
+        "y": 456.4879150390625
+      },
+      {
+        "h": 1397.677001953125,
+        "w": 2484.75927734375,
+        "x": 1345.6473388671875,
+        "y": 491.48089599609375
+      },
+      {
+        "h": 1397.677001953125,
+        "w": 2484.75927734375,
+        "x": 1346.4014892578125,
+        "y": 522.7904052734375
+      },
+      {
+        "h": 1397.677001953125,
+        "w": 2484.75927734375,
+        "x": 1347.0670166015625,
+        "y": 550.4164428710938
+      },
+      {
+        "h": 1397.677001953125,
+        "w": 2484.75927734375,
+        "x": 1347.6436767578125,
+        "y": 574.3589477539062
+      },
+      {
+        "h": 1397.677001953125,
+        "w": 2484.75927734375,
+        "x": 1348.1317138671875,
+        "y": 594.6180419921875
+      },
+      {
+        "h": 1397.677001953125,
+        "w": 2484.75927734375,
+        "x": 1348.531005859375,
+        "y": 611.1936645507812
+      },
+      {
+        "h": 1397.677001953125,
+        "w": 2484.75927734375,
+        "x": 1348.841552734375,
+        "y": 624.0858154296875
+      },
+      {
+        "h": 1397.677001953125,
+        "w": 2484.75927734375,
+        "x": 1349.0633544921875,
+        "y": 633.2944946289062
+      },
+      {
+        "h": 1397.677001953125,
+        "w": 2484.75927734375,
+        "x": 1349.196533203125,
+        "y": 638.8197021484375
+      },
+      {
+        "h": 1397.677001953125,
+        "w": 2484.75927734375,
+        "x": 1349.2408447265625,
+        "y": 640.6614379882812
+      }
+    ],
+    "transition_type": "crop_move"
+  },
+  {
+    "accepted_items": 14,
+    "command": "set_crop_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true,
+    "total_items": 18
+  },
+  {
+    "command": "cancel_crop_move",
+    "delay_frames": 6
+  },
+  {
+    "command": "cancel_crop_move_result",
+    "current_crop_height": 1397.677001953125,
+    "current_crop_width": 2484.75927734375,
+    "current_crop_x": 1343.8726806640625,
+    "current_crop_y": 417.8114929199219,
+    "discarded_frames": 11,
+    "error_code": 0,
+    "error_description": "",
+    "remaining_frames": 6,
+    "result": true
+  },
+  {
+    "command": "set_crop",
+    "transition_aray": [
+      {
+        "h": 1397.677001953125,
+        "w": 2484.75927734375,
+        "x": 1343.3724365234375,
+        "y": 465.2696838378906
+      },
+      {
+        "h": 1397.67724609375,
+        "w": 2484.75927734375,
+        "x": 1342.9091796875,
+        "y": 509.21246337890625
+      },
+      {
+        "h": 1397.677001953125,
+        "w": 2484.75927734375,
+        "x": 1342.48291015625,
+        "y": 549.6398315429688
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1342.0938720703125,
+        "y": 586.5517578125
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1341.7418212890625,
+        "y": 619.9482421875
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1341.4267578125,
+        "y": 649.829345703125
+      },
+      {
+        "h": 1397.677001953125,
+        "w": 2484.75927734375,
+        "x": 1341.1488037109375,
+        "y": 676.1950073242188
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1340.907958984375,
+        "y": 699.0452880859375
+      },
+      {
+        "h": 1397.677001953125,
+        "w": 2484.75927734375,
+        "x": 1340.7041015625,
+        "y": 718.3800659179688
+      },
+      {
+        "h": 1397.67724609375,
+        "w": 2484.75927734375,
+        "x": 1340.537353515625,
+        "y": 734.1995239257812
+      },
+      {
+        "h": 1397.67724609375,
+        "w": 2484.75927734375,
+        "x": 1340.4075927734375,
+        "y": 746.5034790039062
+      },
+      {
+        "h": 1397.67724609375,
+        "w": 2484.75927734375,
+        "x": 1340.31494140625,
+        "y": 755.2920532226562
+      },
+      {
+        "h": 1397.677001953125,
+        "w": 2484.75927734375,
+        "x": 1340.2593994140625,
+        "y": 760.565185546875
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1340.2408447265625,
+        "y": 762.3228759765625
+      }
+    ],
+    "transition_type": "crop_move"
+  },
+  {
+    "accepted_items": 14,
+    "command": "set_crop_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true,
+    "total_items": 16
+  },
+  {
+    "command": "dismiss_crop"
+  },
+  {
+    "command": "dismiss_crop_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true
+  },
+  {
+    "command": "settings_updated_notification",
+    "crop_owner_info": {
+      "crop_owner": "",
+      "start_timestamp": 4249245
+    },
+    "current_crop_region": {
+      "current_crop_height": 1397.6771240234375,
+      "current_crop_width": 2484.75927734375,
+      "current_crop_x": 1340.2408447265625,
+      "current_crop_y": 762.3228759765625
+    }
+  },
+  {
+    "antilag_count": 0,
+    "audio_queue_size": 11,
+    "command": "rtmp_queue_notification",
+    "thinout_count": 0,
+    "video_queue_size": 8
+  },
+  {
+    "command": "dismiss_crop"
+  },
+  {
+    "command": "dismiss_crop_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true
+  },
+  {
+    "antilag_count": 0,
+    "audio_queue_size": 1,
+    "command": "rtmp_queue_notification",
+    "thinout_count": 0,
+    "video_queue_size": 2
+  },
+  {
+    "antilag_count": 0,
+    "audio_queue_size": 2,
+    "command": "rtmp_queue_notification",
+    "thinout_count": 0,
+    "video_queue_size": 1
+  },
+  {
+    "command": "cancel_crop_move",
+    "delay_frames": 6
+  },
+  {
+    "command": "cancel_crop_move_result",
+    "current_crop_height": 1397.6771240234375,
+    "current_crop_width": 2484.75927734375,
+    "current_crop_x": 1340.2408447265625,
+    "current_crop_y": 762.3228759765625,
+    "discarded_frames": 0,
+    "error_code": 0,
+    "error_description": "",
+    "remaining_frames": 0,
+    "result": true
+  },
+  {
+    "command": "set_crop",
+    "transition_aray": [
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1333.016357421875,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1311.3428955078125,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1275.220458984375,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1224.6490478515625,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1159.6285400390625,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1080.1591796875,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 986.2408447265625,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 892.3224487304688,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 812.8530883789062,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 747.8327026367188,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 697.26123046875,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 661.1387939453125,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 639.46533203125,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 632.2408447265625,
+        "y": 762.3228759765625
+      }
+    ],
+    "transition_type": "crop_move"
+  },
+  {
+    "command": "settings_updated_notification",
+    "crop_owner_info": {
+      "crop_owner": "4544afdc-b68e-39a2-9c8e-f7712db32c88",
+      "start_timestamp": 4801797
+    }
+  },
+  {
+    "accepted_items": 14,
+    "command": "set_crop_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true,
+    "total_items": 14
+  },
+  {
+    "command": "cancel_crop_move",
+    "delay_frames": 6
+  },
+  {
+    "command": "cancel_crop_move_result",
+    "current_crop_height": 1397.6771240234375,
+    "current_crop_width": 2484.75927734375,
+    "current_crop_x": 812.8530883789062,
+    "current_crop_y": 762.3228759765625,
+    "discarded_frames": 5,
+    "error_code": 0,
+    "error_description": "",
+    "remaining_frames": 6,
+    "result": true
+  },
+  {
+    "command": "set_crop",
+    "transition_aray": [
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 700.87841796875,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 597.1981811523438,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 501.8123779296875,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 414.7209777832031,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 335.9239807128906,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 265.4214172363281,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 203.21327209472656,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 149.29954528808594,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 103.68024444580078,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 66.35535430908203,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 37.324886322021484,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 16.588838577270508,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 4.147209644317627,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 0.0,
+        "y": 762.3228759765625
+      }
+    ],
+    "transition_type": "crop_move"
+  },
+  {
+    "accepted_items": 14,
+    "command": "set_crop_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true,
+    "total_items": 18
+  },
+  {
+    "command": "cancel_crop_move",
+    "delay_frames": 6
+  },
+  {
+    "command": "cancel_crop_move_result",
+    "current_crop_height": 1397.6771240234375,
+    "current_crop_width": 2484.75927734375,
+    "current_crop_x": 501.8123779296875,
+    "current_crop_y": 762.3228759765625,
+    "discarded_frames": 11,
+    "error_code": 0,
+    "error_description": "",
+    "remaining_frames": 6,
+    "result": true
+  },
+  {
+    "command": "set_crop",
+    "transition_aray": [
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 432.6851501464844,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 368.678466796875,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 309.7923278808594,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 256.0267028808594,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 207.3816375732422,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 163.8571014404297,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 125.45309448242188,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 92.16961669921875,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 64.00667572021484,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 40.96427536010742,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 23.042404174804688,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 10.241068840026855,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 2.560267210006714,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 0.0,
+        "y": 762.3228759765625
+      }
+    ],
+    "transition_type": "crop_move"
+  },
+  {
+    "accepted_items": 14,
+    "command": "set_crop_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true,
+    "total_items": 20
+  },
+  {
+    "command": "cancel_crop_move",
+    "delay_frames": 6
+  },
+  {
+    "command": "cancel_crop_move_result",
+    "current_crop_height": 1397.6771240234375,
+    "current_crop_width": 2484.75927734375,
+    "current_crop_x": 432.6851501464844,
+    "current_crop_y": 762.3228759765625,
+    "discarded_frames": 13,
+    "error_code": 0,
+    "error_description": "",
+    "remaining_frames": 6,
+    "result": true
+  },
+  {
+    "command": "set_crop",
+    "transition_aray": [
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 373.08056640625,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 317.8911437988281,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 267.1168518066406,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 220.7577362060547,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 178.8137664794922,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 141.28494262695312,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 108.1712875366211,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 79.47278594970703,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 55.18943405151367,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 35.32123565673828,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 19.868196487426758,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 8.83030891418457,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 2.2075772285461426,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 0.0,
+        "y": 762.3228759765625
+      }
+    ],
+    "transition_type": "crop_move"
+  },
+  {
+    "accepted_items": 14,
+    "command": "set_crop_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true,
+    "total_items": 19
+  },
+  {
+    "command": "cancel_crop_move",
+    "delay_frames": 6
+  },
+  {
+    "command": "cancel_crop_move_result",
+    "current_crop_height": 1397.6771240234375,
+    "current_crop_width": 2484.759033203125,
+    "current_crop_x": 317.8911437988281,
+    "current_crop_y": 762.3228759765625,
+    "discarded_frames": 12,
+    "error_code": 0,
+    "error_description": "",
+    "remaining_frames": 6,
+    "result": true
+  },
+  {
+    "command": "set_crop",
+    "transition_aray": [
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 274.1000061035156,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 233.55267333984375,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 196.24911499023438,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 162.18934631347656,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 131.37338256835938,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 103.80118560791016,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 79.47278594970703,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 58.38816833496094,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 40.54733657836914,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 25.95029640197754,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 14.597042083740234,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 6.487574100494385,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 1.6218935251235962,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 0.0,
+        "y": 762.3228759765625
+      }
+    ],
+    "transition_type": "crop_move"
+  },
+  {
+    "accepted_items": 14,
+    "command": "set_crop_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true,
+    "total_items": 20
+  },
+  {
+    "command": "cancel_crop_move",
+    "delay_frames": 6
+  },
+  {
+    "command": "cancel_crop_move_result",
+    "current_crop_height": 1397.6771240234375,
+    "current_crop_width": 2484.759033203125,
+    "current_crop_x": 274.1000061035156,
+    "current_crop_y": 762.3228759765625,
+    "discarded_frames": 13,
+    "error_code": 0,
+    "error_description": "",
+    "remaining_frames": 6,
+    "result": true
+  },
+  {
+    "command": "set_crop",
+    "transition_aray": [
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 236.34133911132812,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 201.3795928955078,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 169.2147979736328,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 139.84693908691406,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 113.2760238647461,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 89.50204467773438,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 68.5250015258789,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 50.34489822387695,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 34.961734771728516,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 22.375511169433594,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 12.586224555969238,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 5.593877792358398,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 1.3984694480895996,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 0.0,
+        "y": 762.3228759765625
+      }
+    ],
+    "transition_type": "crop_move"
+  },
+  {
+    "accepted_items": 14,
+    "command": "set_crop_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true,
+    "total_items": 20
+  },
+  {
+    "command": "cancel_crop_move",
+    "delay_frames": 6
+  },
+  {
+    "command": "cancel_crop_move_result",
+    "current_crop_height": 1397.6771240234375,
+    "current_crop_width": 2484.759033203125,
+    "current_crop_x": 236.34133911132812,
+    "current_crop_y": 762.3228759765625,
+    "discarded_frames": 13,
+    "error_code": 0,
+    "error_description": "",
+    "remaining_frames": 6,
+    "result": true
+  },
+  {
+    "command": "set_crop",
+    "transition_aray": [
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 203.7841033935547,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 173.63853454589844,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 145.90460205078125,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 120.58231353759766,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 97.67167663574219,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 77.17268371582031,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 59.08533477783203,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 43.40963363647461,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 30.145578384399414,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 19.293170928955078,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 10.852408409118652,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 4.8232927322387695,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 1.2058231830596924,
+        "y": 762.3228759765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 0.0,
+        "y": 762.3228759765625
+      }
+    ],
+    "transition_type": "crop_move"
+  },
+  {
+    "accepted_items": 14,
+    "command": "set_crop_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true,
+    "total_items": 19
+  },
+  {
+    "command": "dismiss_crop"
+  },
+  {
+    "command": "dismiss_crop_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true
+  },
+  {
+    "command": "settings_updated_notification",
+    "crop_owner_info": {
+      "crop_owner": "",
+      "start_timestamp": 4894890
+    },
+    "current_crop_region": {
+      "current_crop_height": 1397.6771240234375,
+      "current_crop_width": 2484.759033203125,
+      "current_crop_x": 0.0,
+      "current_crop_y": 762.3228759765625
+    }
+  },
+  {
+    "command": "dismiss_crop"
+  },
+  {
+    "command": "dismiss_crop_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true
+  },
+  {
+    "command": "cancel_crop_move",
+    "delay_frames": 6
+  },
+  {
+    "command": "cancel_crop_move_result",
+    "current_crop_height": 1397.6771240234375,
+    "current_crop_width": 2484.759033203125,
+    "current_crop_x": 0.0,
+    "current_crop_y": 762.3228759765625,
+    "discarded_frames": 0,
+    "error_code": 0,
+    "error_description": "",
+    "remaining_frames": 0,
+    "result": true
+  },
+  {
+    "command": "set_crop",
+    "transition_aray": [
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 0.0,
+        "y": 761.2208251953125
+      },
+      {
+        "h": 1397.677001953125,
+        "w": 2484.759033203125,
+        "x": 0.0,
+        "y": 757.9147338867188
+      },
+      {
+        "h": 1397.677001953125,
+        "w": 2484.759033203125,
+        "x": 0.0,
+        "y": 752.404541015625
+      },
+      {
+        "h": 1397.67724609375,
+        "w": 2484.759033203125,
+        "x": 0.0,
+        "y": 744.6902465820312
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 0.0,
+        "y": 734.7718505859375
+      },
+      {
+        "h": 1397.67724609375,
+        "w": 2484.759033203125,
+        "x": 0.0,
+        "y": 722.6494140625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 0.0,
+        "y": 708.3228759765625
+      },
+      {
+        "h": 1397.677001953125,
+        "w": 2484.759033203125,
+        "x": 0.0,
+        "y": 693.9963989257812
+      },
+      {
+        "h": 1397.677001953125,
+        "w": 2484.759033203125,
+        "x": 0.0,
+        "y": 681.8739624023438
+      },
+      {
+        "h": 1397.677001953125,
+        "w": 2484.759033203125,
+        "x": 0.0,
+        "y": 671.95556640625
+      },
+      {
+        "h": 1397.677001953125,
+        "w": 2484.759033203125,
+        "x": 0.0,
+        "y": 664.2412719726562
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 0.0,
+        "y": 658.7310791015625
+      },
+      {
+        "h": 1397.677001953125,
+        "w": 2484.759033203125,
+        "x": 0.0,
+        "y": 655.4249877929688
+      },
+      {
+        "h": 1397.677001953125,
+        "w": 2484.759033203125,
+        "x": 0.0,
+        "y": 654.3229370117188
+      }
+    ],
+    "transition_type": "crop_move"
+  },
+  {
+    "command": "settings_updated_notification",
+    "crop_owner_info": {
+      "crop_owner": "4544afdc-b68e-39a2-9c8e-f7712db32c88",
+      "start_timestamp": 4972968
+    }
+  },
+  {
+    "accepted_items": 14,
+    "command": "set_crop_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true,
+    "total_items": 14
+  },
+  {
+    "command": "cancel_crop_move",
+    "delay_frames": 6
+  },
+  {
+    "command": "cancel_crop_move_result",
+    "current_crop_height": 1397.677001953125,
+    "current_crop_width": 2484.759033203125,
+    "current_crop_x": 0.0,
+    "current_crop_y": 681.8739624023438,
+    "discarded_frames": 5,
+    "error_code": 0,
+    "error_description": "",
+    "remaining_frames": 6,
+    "result": true
+  },
+  {
+    "command": "set_crop",
+    "transition_aray": [
+      {
+        "h": 1397.677001953125,
+        "w": 2484.759033203125,
+        "x": 0.0,
+        "y": 616.5021362304688
+      },
+      {
+        "h": 1397.677001953125,
+        "w": 2484.759033203125,
+        "x": 0.0,
+        "y": 555.97265625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 0.0,
+        "y": 500.2855224609375
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 0.0,
+        "y": 449.4407958984375
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 0.0,
+        "y": 403.4383850097656
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 0.0,
+        "y": 362.2783508300781
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 0.0,
+        "y": 325.9606628417969
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 0.0,
+        "y": 294.4853515625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 0.0,
+        "y": 267.8523864746094
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 0.0,
+        "y": 246.061767578125
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 0.0,
+        "y": 229.11351013183594
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 0.0,
+        "y": 217.0076141357422
+      },
+      {
+        "h": 1397.677001953125,
+        "w": 2484.759033203125,
+        "x": 0.0,
+        "y": 209.74407958984375
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 0.0,
+        "y": 207.32290649414062
+      }
+    ],
+    "transition_type": "crop_move"
+  },
+  {
+    "accepted_items": 14,
+    "command": "set_crop_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true,
+    "total_items": 19
+  },
+  {
+    "command": "cancel_crop_move",
+    "delay_frames": 6
+  },
+  {
+    "command": "cancel_crop_move_result",
+    "current_crop_height": 1397.677001953125,
+    "current_crop_width": 2484.759033203125,
+    "current_crop_x": 0.0,
+    "current_crop_y": 616.5021362304688,
+    "discarded_frames": 13,
+    "error_code": 0,
+    "error_description": "",
+    "remaining_frames": 6,
+    "result": true
+  },
+  {
+    "command": "set_crop",
+    "transition_aray": [
+      {
+        "h": 1397.677001953125,
+        "w": 2484.759033203125,
+        "x": 0.0,
+        "y": 546.9110717773438
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 0.0,
+        "y": 482.4749755859375
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 0.0,
+        "y": 423.1937561035156
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 0.0,
+        "y": 369.0674133300781
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 0.0,
+        "y": 320.095947265625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 0.0,
+        "y": 276.2793884277344
+      },
+      {
+        "h": 1397.67724609375,
+        "w": 2484.759033203125,
+        "x": 0.0,
+        "y": 237.61770629882812
+      },
+      {
+        "h": 1397.67724609375,
+        "w": 2484.759033203125,
+        "x": 0.0,
+        "y": 204.11093139648438
+      },
+      {
+        "h": 1397.67724609375,
+        "w": 2484.759033203125,
+        "x": 0.0,
+        "y": 175.759033203125
+      },
+      {
+        "h": 1397.67724609375,
+        "w": 2484.759033203125,
+        "x": 0.0,
+        "y": 152.56202697753906
+      },
+      {
+        "h": 1397.67724609375,
+        "w": 2484.759033203125,
+        "x": 0.0,
+        "y": 134.51991271972656
+      },
+      {
+        "h": 1397.67724609375,
+        "w": 2484.759033203125,
+        "x": 0.0,
+        "y": 121.63268280029297
+      },
+      {
+        "h": 1397.67724609375,
+        "w": 2484.759033203125,
+        "x": 0.0,
+        "y": 113.90035247802734
+      },
+      {
+        "h": 1397.67724609375,
+        "w": 2484.759033203125,
+        "x": 0.0,
+        "y": 111.32290649414062
+      }
+    ],
+    "transition_type": "crop_move"
+  },
+  {
+    "accepted_items": 14,
+    "command": "set_crop_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true,
+    "total_items": 19
+  },
+  {
+    "command": "cancel_crop_move",
+    "delay_frames": 6
+  },
+  {
+    "command": "cancel_crop_move_result",
+    "current_crop_height": 1397.677001953125,
+    "current_crop_width": 2484.759033203125,
+    "current_crop_x": 0.0,
+    "current_crop_y": 546.9110717773438,
+    "discarded_frames": 13,
+    "error_code": 0,
+    "error_description": "",
+    "remaining_frames": 6,
+    "result": true
+  },
+  {
+    "command": "set_crop",
+    "transition_aray": [
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 0.0,
+        "y": 474.5086364746094
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 0.0,
+        "y": 407.4693298339844
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 0.0,
+        "y": 345.7931823730469
+      },
+      {
+        "h": 1397.677001953125,
+        "w": 2484.759033203125,
+        "x": 0.0,
+        "y": 289.48016357421875
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 0.0,
+        "y": 238.5302734375
+      },
+      {
+        "h": 1397.677001953125,
+        "w": 2484.759033203125,
+        "x": 0.0,
+        "y": 192.94354248046875
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 0.0,
+        "y": 152.71995544433594
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 0.0,
+        "y": 117.85951232910156
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 0.0,
+        "y": 88.36222076416016
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 0.0,
+        "y": 64.22806549072266
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 0.0,
+        "y": 45.45705795288086
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 0.0,
+        "y": 32.0491943359375
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 0.0,
+        "y": 24.004478454589844
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 0.0,
+        "y": 21.322906494140625
+      }
+    ],
+    "transition_type": "crop_move"
+  },
+  {
+    "accepted_items": 14,
+    "command": "set_crop_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true,
+    "total_items": 19
+  },
+  {
+    "command": "cancel_crop_move",
+    "delay_frames": 6
+  },
+  {
+    "command": "cancel_crop_move_result",
+    "current_crop_height": 1397.6771240234375,
+    "current_crop_width": 2484.759033203125,
+    "current_crop_x": 0.0,
+    "current_crop_y": 407.4693298339844,
+    "discarded_frames": 12,
+    "error_code": 0,
+    "error_description": "",
+    "remaining_frames": 6,
+    "result": true
+  },
+  {
+    "command": "set_crop",
+    "transition_aray": [
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 0.41326531767845154,
+        "y": 351.3383483886719
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 0.795918345451355,
+        "y": 299.365234375
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 1.1479592323303223,
+        "y": 251.54994201660156
+      },
+      {
+        "h": 1397.677001953125,
+        "w": 2484.759033203125,
+        "x": 1.4693877696990967,
+        "y": 207.89251708984375
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1.7602040767669678,
+        "y": 168.3929443359375
+      },
+      {
+        "h": 1397.677001953125,
+        "w": 2484.75927734375,
+        "x": 2.0204081535339355,
+        "y": 133.05120849609375
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 2.25,
+        "y": 101.8673324584961
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 2.448979616165161,
+        "y": 74.84130859375
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 2.617347002029419,
+        "y": 51.97312927246094
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 2.7551021575927734,
+        "y": 33.26280212402344
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 2.8622448444366455,
+        "y": 18.7103271484375
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 2.9387755393981934,
+        "y": 8.31570053100586
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 2.984693765640259,
+        "y": 2.078925132751465
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 3.0,
+        "y": 0.0
+      }
+    ],
+    "transition_type": "crop_move"
+  },
+  {
+    "accepted_items": 14,
+    "command": "set_crop_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true,
+    "total_items": 19
+  },
+  {
+    "command": "cancel_crop_move",
+    "delay_frames": 6
+  },
+  {
+    "command": "cancel_crop_move_result",
+    "current_crop_height": 1397.6771240234375,
+    "current_crop_width": 2484.759033203125,
+    "current_crop_x": 0.41326531767845154,
+    "current_crop_y": 351.3383483886719,
+    "discarded_frames": 13,
+    "error_code": 0,
+    "error_description": "",
+    "remaining_frames": 6,
+    "result": true
+  },
+  {
+    "command": "set_crop",
+    "transition_aray": [
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 2.009397029876709,
+        "y": 302.939697265625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 3.4872970581054688,
+        "y": 258.1261291503906
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 4.8469648361206055,
+        "y": 216.8976593017578
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 6.088400840759277,
+        "y": 179.25425720214844
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 7.211604595184326,
+        "y": 145.19595336914062
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 8.21657657623291,
+        "y": 114.72272491455078
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 9.103316307067871,
+        "y": 87.83458709716797
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 9.871824264526367,
+        "y": 64.53153228759766
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 10.522100448608398,
+        "y": 44.81356430053711
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 11.054143905639648,
+        "y": 28.680681228637695
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 11.467955589294434,
+        "y": 16.132883071899414
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 11.76353645324707,
+        "y": 7.170170307159424
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 11.94088363647461,
+        "y": 1.792542576789856
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 12.0,
+        "y": 0.0
+      }
+    ],
+    "transition_type": "crop_move"
+  },
+  {
+    "accepted_items": 14,
+    "command": "set_crop_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true,
+    "total_items": 19
+  },
+  {
+    "command": "cancel_crop_move",
+    "delay_frames": 6
+  },
+  {
+    "command": "cancel_crop_move_result",
+    "current_crop_height": 1397.6771240234375,
+    "current_crop_width": 2484.759033203125,
+    "current_crop_x": 2.009397029876709,
+    "current_crop_y": 302.939697265625,
+    "discarded_frames": 13,
+    "error_code": 0,
+    "error_description": "",
+    "remaining_frames": 6,
+    "result": true
+  },
+  {
+    "command": "set_crop",
+    "transition_aray": [
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 4.212184429168701,
+        "y": 261.2082214355469
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 6.25180196762085,
+        "y": 222.5679473876953
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 8.128250122070312,
+        "y": 187.01890563964844
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 9.84152889251709,
+        "y": 154.5610809326172
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 11.39163875579834,
+        "y": 125.19447326660156
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 12.778578758239746,
+        "y": 98.9190902709961
+      },
+      {
+        "h": 1397.67724609375,
+        "w": 2484.75927734375,
+        "x": 14.002348899841309,
+        "y": 75.73492431640625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 15.062950134277344,
+        "y": 55.64198684692383
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 15.960382461547852,
+        "y": 38.6402702331543
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 16.694644927978516,
+        "y": 24.729772567749023
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 17.265737533569336,
+        "y": 13.910496711730957
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 17.673660278320312,
+        "y": 6.182443141937256
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 17.918415069580078,
+        "y": 1.545610785484314
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 18.0,
+        "y": 0.0
+      }
+    ],
+    "transition_type": "crop_move"
+  },
+  {
+    "accepted_items": 14,
+    "command": "set_crop_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true,
+    "total_items": 18
+  },
+  {
+    "command": "dismiss_crop"
+  },
+  {
+    "command": "dismiss_crop_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true
+  },
+  {
+    "command": "settings_updated_notification",
+    "crop_owner_info": {
+      "crop_owner": "",
+      "start_timestamp": 5060055
+    },
+    "current_crop_region": {
+      "current_crop_height": 1397.6771240234375,
+      "current_crop_width": 2484.75927734375,
+      "current_crop_x": 18.0,
+      "current_crop_y": 0.0
+    }
+  },
+  {
+    "command": "dismiss_crop"
+  },
+  {
+    "command": "dismiss_crop_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true
+  },
+  {
+    "command": "cancel_crop_move",
+    "delay_frames": 6
+  },
+  {
+    "command": "cancel_crop_move_result",
+    "current_crop_height": 1397.6771240234375,
+    "current_crop_width": 2484.75927734375,
+    "current_crop_x": 18.0,
+    "current_crop_y": 0.0,
+    "discarded_frames": 0,
+    "error_code": 0,
+    "error_description": "",
+    "remaining_frames": 0,
+    "result": true
+  },
+  {
+    "command": "set_crop",
+    "transition_aray": [
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 18.85714340209961,
+        "y": 0.12244898080825806
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 21.428571701049805,
+        "y": 0.4897959232330322
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 25.714284896850586,
+        "y": 1.1020407676696777
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 31.714284896850586,
+        "y": 1.959183692932129
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 39.42856979370117,
+        "y": 3.0612244606018066
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 48.85714340209961,
+        "y": 4.408163070678711
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 60.0,
+        "y": 6.0
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 71.14286041259766,
+        "y": 7.591836929321289
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 80.57142639160156,
+        "y": 8.938775062561035
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 88.28571319580078,
+        "y": 10.040816307067871
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 94.28571319580078,
+        "y": 10.897958755493164
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 98.57142639160156,
+        "y": 11.510204315185547
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 101.14286041259766,
+        "y": 11.877551078796387
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 102.0,
+        "y": 12.0
+      }
+    ],
+    "transition_type": "crop_move"
+  },
+  {
+    "command": "settings_updated_notification",
+    "crop_owner_info": {
+      "crop_owner": "4544afdc-b68e-39a2-9c8e-f7712db32c88",
+      "start_timestamp": 5078073
+    }
+  },
+  {
+    "accepted_items": 14,
+    "command": "set_crop_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true,
+    "total_items": 14
+  },
+  {
+    "command": "cancel_crop_move",
+    "delay_frames": 6
+  },
+  {
+    "command": "cancel_crop_move_result",
+    "current_crop_height": 1397.6771240234375,
+    "current_crop_width": 2484.759033203125,
+    "current_crop_x": 80.57142639160156,
+    "current_crop_y": 8.938775062561035,
+    "discarded_frames": 5,
+    "error_code": 0,
+    "error_description": "",
+    "remaining_frames": 6,
+    "result": true
+  },
+  {
+    "command": "set_crop",
+    "transition_aray": [
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 146.3396453857422,
+        "y": 13.493127822875977
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 207.23614501953125,
+        "y": 17.710121154785156
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 263.26092529296875,
+        "y": 21.589754104614258
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 314.41400146484375,
+        "y": 25.132028579711914
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 360.6953430175781,
+        "y": 28.336942672729492
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 402.1049499511719,
+        "y": 31.204498291015625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 438.6428527832031,
+        "y": 33.73469543457031
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 470.3090515136719,
+        "y": 35.927528381347656
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 497.1034851074219,
+        "y": 37.78300857543945
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 519.0262451171875,
+        "y": 39.301124572753906
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 536.0772705078125,
+        "y": 40.48188400268555
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 548.2565307617188,
+        "y": 41.325279235839844
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 555.5641479492188,
+        "y": 41.831321716308594
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 558.0,
+        "y": 42.0
+      }
+    ],
+    "transition_type": "crop_move"
+  },
+  {
+    "accepted_items": 14,
+    "command": "set_crop_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true,
+    "total_items": 19
+  },
+  {
+    "command": "cancel_crop_move",
+    "delay_frames": 6
+  },
+  {
+    "command": "cancel_crop_move_result",
+    "current_crop_height": 1397.6771240234375,
+    "current_crop_width": 2484.759033203125,
+    "current_crop_x": 146.3396453857422,
+    "current_crop_y": 13.493127822875977,
+    "discarded_frames": 13,
+    "error_code": 0,
+    "error_description": "",
+    "remaining_frames": 6,
+    "result": true
+  },
+  {
+    "command": "set_crop",
+    "transition_aray": [
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 251.40000915527344,
+        "y": 21.966012954711914
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 348.6781005859375,
+        "y": 29.811277389526367
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 438.1739807128906,
+        "y": 37.0289192199707
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 519.8875732421875,
+        "y": 43.61894226074219
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 593.8189086914062,
+        "y": 49.58134460449219
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 659.9680786132812,
+        "y": 54.91612243652344
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 718.3348999023438,
+        "y": 59.62328338623047
+      },
+      {
+        "h": 1397.677001953125,
+        "w": 2484.75927734375,
+        "x": 768.9195556640625,
+        "y": 63.70281982421875
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 811.721923828125,
+        "y": 67.15473937988281
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 846.7420043945312,
+        "y": 69.97903442382812
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 873.9798583984375,
+        "y": 72.17570495605469
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 893.4354858398438,
+        "y": 73.74475860595703
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 905.10888671875,
+        "y": 74.68618774414062
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 909.0,
+        "y": 75.0
+      }
+    ],
+    "transition_type": "crop_move"
+  },
+  {
+    "accepted_items": 14,
+    "command": "set_crop_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true,
+    "total_items": 19
+  },
+  {
+    "command": "cancel_crop_move",
+    "delay_frames": 6
+  },
+  {
+    "command": "cancel_crop_move_result",
+    "current_crop_height": 1397.6771240234375,
+    "current_crop_width": 2484.75927734375,
+    "current_crop_x": 348.6781005859375,
+    "current_crop_y": 29.811277389526367,
+    "discarded_frames": 12,
+    "error_code": 0,
+    "error_description": "",
+    "remaining_frames": 6,
+    "result": true
+  },
+  {
+    "command": "set_crop",
+    "transition_aray": [
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 482.06939697265625,
+        "y": 39.75564193725586
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 605.579833984375,
+        "y": 48.96338653564453
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 719.20947265625,
+        "y": 57.434513092041016
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.759033203125,
+        "x": 822.9581909179688,
+        "y": 65.16902160644531
+      },
+      {
+        "h": 1397.677001953125,
+        "w": 2484.759033203125,
+        "x": 916.826171875,
+        "y": 72.16690826416016
+      },
+      {
+        "h": 1397.677001953125,
+        "w": 2484.759033203125,
+        "x": 1000.813232421875,
+        "y": 78.42816925048828
+      },
+      {
+        "h": 1397.677001953125,
+        "w": 2484.75927734375,
+        "x": 1074.9195556640625,
+        "y": 83.95281982421875
+      },
+      {
+        "h": 1397.677001953125,
+        "w": 2484.759033203125,
+        "x": 1139.14501953125,
+        "y": 88.7408447265625
+      },
+      {
+        "h": 1397.677001953125,
+        "w": 2484.759033203125,
+        "x": 1193.489501953125,
+        "y": 92.79225158691406
+      },
+      {
+        "h": 1397.677001953125,
+        "w": 2484.759033203125,
+        "x": 1237.953369140625,
+        "y": 96.10704040527344
+      },
+      {
+        "h": 1397.677001953125,
+        "w": 2484.75927734375,
+        "x": 1272.5362548828125,
+        "y": 98.68521118164062
+      },
+      {
+        "h": 1397.677001953125,
+        "w": 2484.759033203125,
+        "x": 1297.23828125,
+        "y": 100.52676391601562
+      },
+      {
+        "h": 1397.677001953125,
+        "w": 2484.759033203125,
+        "x": 1312.0595703125,
+        "y": 101.6316909790039
+      },
+      {
+        "h": 1397.677001953125,
+        "w": 2484.759033203125,
+        "x": 1317.0,
+        "y": 102.0
+      }
+    ],
+    "transition_type": "crop_move"
+  },
+  {
+    "accepted_items": 14,
+    "command": "set_crop_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true,
+    "total_items": 19
+  },
+  {
+    "command": "cancel_crop_move",
+    "delay_frames": 6
+  },
+  {
+    "command": "cancel_crop_move_result",
+    "current_crop_height": 1397.6771240234375,
+    "current_crop_width": 2484.759033203125,
+    "current_crop_x": 482.06939697265625,
+    "current_crop_y": 39.75564193725586,
+    "discarded_frames": 13,
+    "error_code": 0,
+    "error_description": "",
+    "remaining_frames": 6,
+    "result": true
+  },
+  {
+    "command": "set_crop",
+    "transition_aray": [
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 602.3532104492188,
+        "y": 51.22297668457031
+      },
+      {
+        "h": 1397.67724609375,
+        "w": 2484.75927734375,
+        "x": 713.7271118164062,
+        "y": 61.84088134765625
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 816.1911010742188,
+        "y": 71.6093521118164
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 909.7451782226562,
+        "y": 80.52838897705078
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 994.389404296875,
+        "y": 88.59799194335938
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1070.1236572265625,
+        "y": 95.81816864013672
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1136.947998046875,
+        "y": 102.18891143798828
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1194.8624267578125,
+        "y": 107.71022033691406
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1243.866943359375,
+        "y": 112.38209533691406
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1283.9615478515625,
+        "y": 116.20454406738281
+      },
+      {
+        "h": 1397.67724609375,
+        "w": 2484.75927734375,
+        "x": 1315.146240234375,
+        "y": 119.17755126953125
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1337.4210205078125,
+        "y": 121.30113220214844
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1350.785888671875,
+        "y": 122.57528686523438
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 1355.2408447265625,
+        "y": 123.0
+      }
+    ],
+    "transition_type": "crop_move"
+  },
+  {
+    "accepted_items": 14,
+    "command": "set_crop_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true,
+    "total_items": 18
+  },
+  {
+    "command": "cancel_crop_move",
+    "delay_frames": 6
+  },
+  {
+    "command": "cancel_crop_move_result",
+    "current_crop_height": 1397.6771240234375,
+    "current_crop_width": 2484.75927734375,
+    "current_crop_x": 816.1911010742188,
+    "current_crop_y": 71.6093521118164,
+    "discarded_frames": 11,
+    "error_code": 0,
+    "error_description": "",
+    "remaining_frames": 6,
+    "result": true
+  },
+  {
+    "command": "set_crop",
+    "transition_aray": [
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 890.447998046875,
+        "y": 82.40806579589844
+      },
+      {
+        "h": 1397.6771240234375,
+        "w": 2484.75927734375,
+        "x": 959.2042846679688,
+        "y": 92.40686798095703
+      },
+      {
+        "h": 1397.67724609375,
+        "w": 2484.75927734375,
+        "x": 1022.4601440429688,
+        "y": 101.60577392578125
+      },
+      {
+        "h": 1397.677001953125,
+        "w": 2484.75927734375,
+        "x": 1080.2154541015625,
+        "y": 110.00476837158203
+      },
+      {
+        "h": 1397.677001953125,
+        "w": 2484.75927734375,
+        "x": 1132.4703369140625,
+        "y": 117.60386657714844
+      },
+      {
+        "h": 1397.677001953125,
+        "w": 2484.75927734375,
+        "x": 1179.224609375,
+        "y": 124.4030532836914
+      },
+      {
+        "h": 1397.677001953125,
+        "w": 2484.75927734375,
+        "x": 1220.4783935546875,
+        "y": 130.40234375
+      },
+      {
+        "h": 1397.677001953125,
+        "w": 2484.75927734375,
+        "x": 1256.231689453125,
+        "y": 135.60171508789062
+      },
+      {
+        "h": 1397.677001953125,
+        "w": 2484.75927734375,
+        "x": 1286.4844970703125,
+        "y": 140.00119018554688
+      },
+      {
+        "h": 1397.677001953125,
+        "w": 2484.75927734375,
+        "x": 1311.23681640625,
+        "y": 143.60076904296875
+      },
+      {
+        "h": 1397.677001953125,
+        "w": 2484.75927734375,
+        "x": 1330.488525390625,
+        "y": 146.4004364013672
+      },
+      {
+        "h": 1397.677001953125,
+        "w": 2484.75927734375,
+        "x": 1344.2398681640625,
+        "y": 148.4001922607422
+      },
+      {
+        "h": 1397.677001953125,
+        "w": 2484.75927734375,
+        "x": 1352.4906005859375,
+        "y": 149.6000518798828
+      },
+      {
+        "h": 1397.677001953125,
+        "w": 2484.75927734375,
+        "x": 1355.2408447265625,
+        "y": 150.0
+      }
+    ],
+    "transition_type": "crop_move"
+  },
+  {
+    "accepted_items": 14,
+    "command": "set_crop_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true,
+    "total_items": 19
+  },
+  {
+    "command": "dismiss_crop"
+  },
+  {
+    "command": "dismiss_crop_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true
+  },
+  {
+    "command": "cancel_crop_move",
+    "delay_frames": 6
+  },
+  {
+    "command": "cancel_crop_move_result",
+    "current_crop_height": 1397.677001953125,
+    "current_crop_width": 2484.75927734375,
+    "current_crop_x": 1355.2408447265625,
+    "current_crop_y": 150.0,
+    "discarded_frames": 0,
+    "error_code": 0,
+    "error_description": "",
+    "remaining_frames": 4,
+    "result": true
+  },
+  {
+    "command": "set_crop",
+    "transition_aray": [
+      {
+        "h": 1397.677001953125,
+        "w": 2484.75927734375,
+        "x": 1320.042236328125,
+        "y": 153.2927703857422
+      },
+      {
+        "h": 1397.677001953125,
+        "w": 2484.75927734375,
+        "x": 1287.4508056640625,
+        "y": 156.3416290283203
+      },
+      {
+        "h": 1397.677001953125,
+        "w": 2484.75927734375,
+        "x": 1257.466796875,
+        "y": 159.14657592773438
+      },
+      {
+        "h": 1397.677001953125,
+        "w": 2484.75927734375,
+        "x": 1230.090087890625,
+        "y": 161.70761108398438
+      },
+      {
+        "h": 1397.6768798828125,
+        "w": 2484.75927734375,
+        "x": 1205.3206787109375,
+        "y": 164.02474975585938
+      },
+      {
+        "h": 1397.6768798828125,
+        "w": 2484.75927734375,
+        "x": 1183.1585693359375,
+        "y": 166.0979766845703
+      },
+      {
+        "h": 1397.6768798828125,
+        "w": 2484.75927734375,
+        "x": 1163.603759765625,
+        "y": 167.92727661132812
+      },
+      {
+        "h": 1397.6768798828125,
+        "w": 2484.75927734375,
+        "x": 1146.65625,
+        "y": 169.5126953125
+      },
+      {
+        "h": 1397.6767578125,
+        "w": 2484.75927734375,
+        "x": 1132.3160400390625,
+        "y": 170.85418701171875
+      },
+      {
+        "h": 1397.6768798828125,
+        "w": 2484.75927734375,
+        "x": 1120.5831298828125,
+        "y": 171.9517822265625
+      },
+      {
+        "h": 1397.6768798828125,
+        "w": 2484.75927734375,
+        "x": 1111.4576416015625,
+        "y": 172.80545043945312
+      },
+      {
+        "h": 1397.6767578125,
+        "w": 2484.75927734375,
+        "x": 1104.9393310546875,
+        "y": 173.41522216796875
+      },
+      {
+        "h": 1397.6768798828125,
+        "w": 2484.75927734375,
+        "x": 1101.0284423828125,
+        "y": 173.78109741210938
+      },
+      {
+        "h": 1397.6768798828125,
+        "w": 2484.75927734375,
+        "x": 1099.7247314453125,
+        "y": 173.90304565429688
+      }
+    ],
+    "transition_type": "crop_move"
+  },
+  {
+    "accepted_items": 14,
+    "command": "set_crop_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true,
+    "total_items": 17
+  },
+  {
+    "command": "cancel_crop_move",
+    "delay_frames": 6
+  },
+  {
+    "command": "cancel_crop_move_result",
+    "current_crop_height": 1397.677001953125,
+    "current_crop_width": 2484.75927734375,
+    "current_crop_x": 1257.466796875,
+    "current_crop_y": 159.14657592773438,
+    "discarded_frames": 11,
+    "error_code": 0,
+    "error_description": "",
+    "remaining_frames": 6,
+    "result": true
+  },
+  {
+    "command": "set_crop",
+    "transition_aray": [
+      {
+        "h": 1397.677001953125,
+        "w": 2484.75927734375,
+        "x": 1228.9180908203125,
+        "y": 166.5518035888672
+      },
+      {
+        "h": 1397.6768798828125,
+        "w": 2484.75927734375,
+        "x": 1202.4842529296875,
+        "y": 173.4084930419922
+      },
+      {
+        "h": 1397.6768798828125,
+        "w": 2484.75927734375,
+        "x": 1178.1649169921875,
+        "y": 179.71665954589844
+      },
+      {
+        "h": 1397.6768798828125,
+        "w": 2484.75927734375,
+        "x": 1155.96044921875,
+        "y": 185.4762725830078
+      },
+      {
+        "h": 1397.6768798828125,
+        "w": 2484.759521484375,
+        "x": 1135.87060546875,
+        "y": 190.68736267089844
+      },
+      {
+        "h": 1397.677001953125,
+        "w": 2484.759521484375,
+        "x": 1117.8955078125,
+        "y": 195.34991455078125
+      },
+      {
+        "h": 1397.677001953125,
+        "w": 2484.759521484375,
+        "x": 1102.03515625,
+        "y": 199.46392822265625
+      },
+      {
+        "h": 1397.6768798828125,
+        "w": 2484.759521484375,
+        "x": 1088.28955078125,
+        "y": 203.02940368652344
+      },
+      {
+        "h": 1397.6768798828125,
+        "w": 2484.75927734375,
+        "x": 1076.6585693359375,
+        "y": 206.04635620117188
+      },
+      {
+        "h": 1397.6768798828125,
+        "w": 2484.759521484375,
+        "x": 1067.142333984375,
+        "y": 208.51475524902344
+      },
+      {
+        "h": 1397.677001953125,
+        "w": 2484.759765625,
+        "x": 1059.7408447265625,
+        "y": 210.43463134765625
+      },
+      {
+        "h": 1397.677001953125,
+        "w": 2484.759521484375,
+        "x": 1054.4541015625,
+        "y": 211.80596923828125
+      },
+      {
+        "h": 1397.6768798828125,
+        "w": 2484.759521484375,
+        "x": 1051.281982421875,
+        "y": 212.6287841796875
+      },
+      {
+        "h": 1397.6768798828125,
+        "w": 2484.759521484375,
+        "x": 1050.224609375,
+        "y": 212.90304565429688
+      }
+    ],
+    "transition_type": "crop_move"
+  },
+  {
+    "accepted_items": 14,
+    "command": "set_crop_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true,
+    "total_items": 19
+  },
+  {
+    "command": "cancel_crop_move",
+    "delay_frames": 6
+  },
+  {
+    "command": "cancel_crop_move_result",
+    "current_crop_height": 1397.6768798828125,
+    "current_crop_width": 2484.75927734375,
+    "current_crop_x": 1202.4842529296875,
+    "current_crop_y": 173.4084930419922,
+    "discarded_frames": 12,
+    "error_code": 0,
+    "error_description": "",
+    "remaining_frames": 6,
+    "result": true
+  },
+  {
+    "command": "set_crop",
+    "transition_aray": [
+      {
+        "h": 1397.6768798828125,
+        "w": 2484.75927734375,
+        "x": 1172.8310546875,
+        "y": 185.8745880126953
+      },
+      {
+        "h": 1397.6768798828125,
+        "w": 2484.75927734375,
+        "x": 1145.37451171875,
+        "y": 197.41725158691406
+      },
+      {
+        "h": 1397.6768798828125,
+        "w": 2484.759521484375,
+        "x": 1120.114501953125,
+        "y": 208.03651428222656
+      },
+      {
+        "h": 1397.6767578125,
+        "w": 2484.759765625,
+        "x": 1097.0509033203125,
+        "y": 217.73236083984375
+      },
+      {
+        "h": 1397.6768798828125,
+        "w": 2484.75927734375,
+        "x": 1076.1839599609375,
+        "y": 226.50479125976562
+      },
+      {
+        "h": 1397.6768798828125,
+        "w": 2484.75927734375,
+        "x": 1057.5135498046875,
+        "y": 234.3538055419922
+      },
+      {
+        "h": 1397.6768798828125,
+        "w": 2484.759521484375,
+        "x": 1041.03955078125,
+        "y": 241.27940368652344
+      },
+      {
+        "h": 1397.6768798828125,
+        "w": 2484.75927734375,
+        "x": 1026.7620849609375,
+        "y": 247.28160095214844
+      },
+      {
+        "h": 1397.6768798828125,
+        "w": 2484.759521484375,
+        "x": 1014.6812133789062,
+        "y": 252.36036682128906
+      },
+      {
+        "h": 1397.6768798828125,
+        "w": 2484.759521484375,
+        "x": 1004.796875,
+        "y": 256.5157470703125
+      },
+      {
+        "h": 1397.6768798828125,
+        "w": 2484.759765625,
+        "x": 997.1090087890625,
+        "y": 259.7476806640625
+      },
+      {
+        "h": 1397.677001953125,
+        "w": 2484.759521484375,
+        "x": 991.6177368164062,
+        "y": 262.05621337890625
+      },
+      {
+        "h": 1397.6767578125,
+        "w": 2484.759521484375,
+        "x": 988.3229370117188,
+        "y": 263.44134521484375
+      },
+      {
+        "h": 1397.6768798828125,
+        "w": 2484.759521484375,
+        "x": 987.2246704101562,
+        "y": 263.9030456542969
+      }
+    ],
+    "transition_type": "crop_move"
+  },
+  {
+    "accepted_items": 14,
+    "command": "set_crop_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true,
+    "total_items": 19
+  },
+  {
+    "command": "cancel_crop_move",
+    "delay_frames": 6
+  },
+  {
+    "command": "cancel_crop_move_result",
+    "current_crop_height": 1397.6768798828125,
+    "current_crop_width": 2484.75927734375,
+    "current_crop_x": 1145.37451171875,
+    "current_crop_y": 197.4172515869141,
+    "discarded_frames": 12,
+    "error_code": 0,
+    "error_description": "",
+    "remaining_frames": 6,
+    "result": true
+  },
+  {
+    "command": "set_crop",
+    "transition_aray": [
+      {
+        "h": 1458.399658203125,
+        "w": 2592.7109375,
+        "x": 1056.3883056640625,
+        "y": 184.8931884765625
+      },
+      {
+        "h": 1514.62451171875,
+        "w": 2692.666259765625,
+        "x": 973.9935913085938,
+        "y": 173.2968292236328
+      },
+      {
+        "h": 1566.351318359375,
+        "w": 2784.625,
+        "x": 898.1904296875,
+        "y": 162.62818908691406
+      },
+      {
+        "h": 1613.5802001953125,
+        "w": 2868.58740234375,
+        "x": 828.9788818359375,
+        "y": 152.8872528076172
+      },
+      {
+        "h": 1656.31103515625,
+        "w": 2944.55322265625,
+        "x": 766.3589477539062,
+        "y": 144.0740203857422
+      },
+      {
+        "h": 1694.5438232421875,
+        "w": 3012.52294921875,
+        "x": 710.33056640625,
+        "y": 136.18850708007812
+      },
+      {
+        "h": 1728.27880859375,
+        "w": 3072.49609375,
+        "x": 660.8937377929688,
+        "y": 129.23068237304688
+      },
+      {
+        "h": 1757.515625,
+        "w": 3124.47265625,
+        "x": 618.0485229492188,
+        "y": 123.2005844116211
+      },
+      {
+        "h": 1782.2545166015625,
+        "w": 3168.452880859375,
+        "x": 581.7948608398438,
+        "y": 118.09818267822266
+      },
+      {
+        "h": 1802.4954833984375,
+        "w": 3204.436767578125,
+        "x": 552.1327514648438,
+        "y": 113.92350006103516
+      },
+      {
+        "h": 1818.2384033203125,
+        "w": 3232.42431640625,
+        "x": 529.062255859375,
+        "y": 110.67652130126953
+      },
+      {
+        "h": 1829.4833984375,
+        "w": 3252.415283203125,
+        "x": 512.5833129882812,
+        "y": 108.35724639892578
+      },
+      {
+        "h": 1836.2303466796875,
+        "w": 3264.41015625,
+        "x": 502.6959228515625,
+        "y": 106.96568298339844
+      },
+      {
+        "h": 1838.4793701171875,
+        "w": 3268.408203125,
+        "x": 499.400146484375,
+        "y": 106.5018310546875
+      }
+    ],
+    "transition_type": "crop_move"
+  },
+  {
+    "accepted_items": 14,
+    "command": "set_crop_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true,
+    "total_items": 19
+  },
+  {
+    "command": "cancel_crop_move",
+    "delay_frames": 6
+  },
+  {
+    "command": "cancel_crop_move_result",
+    "current_crop_height": 1514.62451171875,
+    "current_crop_width": 2692.666259765625,
+    "current_crop_x": 973.9935913085938,
+    "current_crop_y": 173.2968292236328,
+    "discarded_frames": 12,
+    "error_code": 0,
+    "error_description": "",
+    "remaining_frames": 6,
+    "result": true
+  },
+  {
+    "command": "set_crop",
+    "transition_aray": [
+      {
+        "h": 1603.510498046875,
+        "w": 2850.685791015625,
+        "x": 839.8209838867188,
+        "y": 149.442138671875
+      },
+      {
+        "h": 1685.812255859375,
+        "w": 2997.0,
+        "x": 715.5870971679688,
+        "y": 127.3544692993164
+      },
+      {
+        "h": 1761.5299072265625,
+        "w": 3131.609375,
+        "x": 601.2919311523438,
+        "y": 107.03380584716797
+      },
+      {
+        "h": 1830.6634521484375,
+        "w": 3254.513427734375,
+        "x": 496.93548583984375,
+        "y": 88.48015594482422
+      },
+      {
+        "h": 1893.2127685546875,
+        "w": 3365.712158203125,
+        "x": 402.51776123046875,
+        "y": 71.69352722167969
+      },
+      {
+        "h": 1949.177978515625,
+        "w": 3465.2060546875,
+        "x": 318.0387268066406,
+        "y": 56.67390441894531
+      },
+      {
+        "h": 1998.55908203125,
+        "w": 3552.99462890625,
+        "x": 243.49839782714844,
+        "y": 43.42129898071289
+      },
+      {
+        "h": 2041.3560791015625,
+        "w": 3629.078125,
+        "x": 178.8967742919922,
+        "y": 31.93570899963379
+      },
+      {
+        "h": 2077.56884765625,
+        "w": 3693.456298828125,
+        "x": 124.23387145996094,
+        "y": 22.217130661010742
+      },
+      {
+        "h": 2107.197509765625,
+        "w": 3746.129638671875,
+        "x": 79.50968170166016,
+        "y": 14.265567779541016
+      },
+      {
+        "h": 2130.241943359375,
+        "w": 3787.09765625,
+        "x": 44.72419357299805,
+        "y": 8.081018447875977
+      },
+      {
+        "h": 2146.702392578125,
+        "w": 3816.3603515625,
+        "x": 19.87742042541504,
+        "y": 3.6634836196899414
+      },
+      {
+        "h": 2156.57861328125,
+        "w": 3833.918212890625,
+        "x": 4.96935510635376,
+        "y": 1.0129625797271729
+      },
+      {
+        "h": 2159.87060546875,
+        "w": 3839.770751953125,
+        "x": 0.0,
+        "y": 0.12945556640625
+      }
+    ],
+    "transition_type": "crop_move"
+  },
+  {
+    "accepted_items": 14,
+    "command": "set_crop_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true,
+    "total_items": 19
+  },
+  {
+    "command": "cancel_crop_move",
+    "delay_frames": 6
+  },
+  {
+    "command": "cancel_crop_move_result",
+    "current_crop_height": 1603.510498046875,
+    "current_crop_width": 2850.685791015625,
+    "current_crop_x": 839.8209838867188,
+    "current_crop_y": 149.442138671875,
+    "discarded_frames": 13,
+    "error_code": 0,
+    "error_description": "",
+    "remaining_frames": 6,
+    "result": true
+  },
+  {
+    "command": "set_crop",
+    "transition_aray": [
+      {
+        "h": 1680.169677734375,
+        "w": 2986.96875,
+        "x": 724.13134765625,
+        "y": 128.85572814941406
+      },
+      {
+        "h": 1751.1505126953125,
+        "w": 3113.15673828125,
+        "x": 617.0113525390625,
+        "y": 109.79422760009766
+      },
+      {
+        "h": 1816.452880859375,
+        "w": 3229.249755859375,
+        "x": 518.4609375,
+        "y": 92.25765228271484
+      },
+      {
+        "h": 1876.0767822265625,
+        "w": 3335.248046875,
+        "x": 428.4801025390625,
+        "y": 76.2459945678711
+      },
+      {
+        "h": 1930.022216796875,
+        "w": 3431.150634765625,
+        "x": 347.0688781738281,
+        "y": 61.759254455566406
+      },
+      {
+        "h": 1978.2891845703125,
+        "w": 3516.95849609375,
+        "x": 274.2272644042969,
+        "y": 48.79743576049805
+      },
+      {
+        "h": 2020.87744140625,
+        "w": 3592.67138671875,
+        "x": 209.9552459716797,
+        "y": 37.36053466796875
+      },
+      {
+        "h": 2057.78759765625,
+        "w": 3658.289306640625,
+        "x": 154.25283813476562,
+        "y": 27.448556900024414
+      },
+      {
+        "h": 2089.019287109375,
+        "w": 3713.81201171875,
+        "x": 107.12002563476562,
+        "y": 19.061498641967773
+      },
+      {
+        "h": 2114.572265625,
+        "w": 3759.23974609375,
+        "x": 68.55681610107422,
+        "y": 12.199358940124512
+      },
+      {
+        "h": 2134.447021484375,
+        "w": 3794.572265625,
+        "x": 38.563209533691406,
+        "y": 6.8621392250061035
+      },
+      {
+        "h": 2148.64306640625,
+        "w": 3819.809814453125,
+        "x": 17.139204025268555,
+        "y": 3.049839735031128
+      },
+      {
+        "h": 2157.160888671875,
+        "w": 3834.952392578125,
+        "x": 4.284801006317139,
+        "y": 0.762459933757782
+      },
+      {
+        "h": 2160.0,
+        "w": 3840.0,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "transition_type": "crop_move"
+  },
+  {
+    "accepted_items": 14,
+    "command": "set_crop_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true,
+    "total_items": 19
+  },
+  {
+    "command": "cancel_crop_move",
+    "delay_frames": 6
+  },
+  {
+    "command": "cancel_crop_move_result",
+    "current_crop_height": 1816.452880859375,
+    "current_crop_width": 3229.249755859375,
+    "current_crop_x": 518.4609375,
+    "current_crop_y": 92.25765228271484,
+    "discarded_frames": 11,
+    "error_code": 0,
+    "error_description": "",
+    "remaining_frames": 6,
+    "result": true
+  },
+  {
+    "command": "set_crop",
+    "transition_aray": [
+      {
+        "h": 1863.7781982421875,
+        "w": 3313.3837890625,
+        "x": 447.040283203125,
+        "y": 79.54869079589844
+      },
+      {
+        "h": 1907.5980224609375,
+        "w": 3391.28564453125,
+        "x": 380.9100646972656,
+        "y": 67.7811279296875
+      },
+      {
+        "h": 1947.9122314453125,
+        "w": 3462.955322265625,
+        "x": 320.07025146484375,
+        "y": 56.954978942871094
+      },
+      {
+        "h": 1984.7208251953125,
+        "w": 3528.392578125,
+        "x": 264.5208740234375,
+        "y": 47.070228576660156
+      },
+      {
+        "h": 2018.0240478515625,
+        "w": 3587.59814453125,
+        "x": 214.26190185546875,
+        "y": 38.12688446044922
+      },
+      {
+        "h": 2047.8212890625,
+        "w": 3640.5712890625,
+        "x": 169.29336547851562,
+        "y": 30.12494659423828
+      },
+      {
+        "h": 2074.11328125,
+        "w": 3687.3125,
+        "x": 129.615234375,
+        "y": 23.06441307067871
+      },
+      {
+        "h": 2096.8994140625,
+        "w": 3727.8212890625,
+        "x": 95.2275161743164,
+        "y": 16.945281982421875
+      },
+      {
+        "h": 2116.18017578125,
+        "w": 3762.09814453125,
+        "x": 66.13021850585938,
+        "y": 11.767557144165039
+      },
+      {
+        "h": 2131.955322265625,
+        "w": 3790.142822265625,
+        "x": 42.323341369628906,
+        "y": 7.53123664855957
+      },
+      {
+        "h": 2144.224853515625,
+        "w": 3811.955322265625,
+        "x": 23.8068790435791,
+        "y": 4.236320495605469
+      },
+      {
+        "h": 2152.98876953125,
+        "w": 3827.53564453125,
+        "x": 10.580835342407227,
+        "y": 1.8828091621398926
+      },
+      {
+        "h": 2158.247314453125,
+        "w": 3836.884033203125,
+        "x": 2.6452088356018066,
+        "y": 0.47070229053497314
+      },
+      {
+        "h": 2160.0,
+        "w": 3840.0,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "transition_type": "crop_move"
+  },
+  {
+    "accepted_items": 14,
+    "command": "set_crop_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true,
+    "total_items": 19
+  },
+  {
+    "command": "camera_general_notification",
+    "data": {
+      "not_recovered_packets": 0,
+      "stream_health": "Perfect streaming"
+    },
+    "description": "Streaming info",
+    "id": 0
+  },
+  {
+    "antilag_count": 0,
+    "audio_queue_size": 2,
+    "command": "rtmp_queue_notification",
+    "thinout_count": 0,
+    "video_queue_size": 1
+  },
+  {
+    "command": "dismiss_crop"
+  },
+  {
+    "command": "dismiss_crop_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true
+  },
+  {
+    "command": "settings_updated_notification",
+    "crop_owner_info": {
+      "crop_owner": "",
+      "start_timestamp": 5249244
+    },
+    "current_crop_region": {
+      "current_crop_height": 2160.0,
+      "current_crop_width": 3840.0,
+      "current_crop_x": 0.0,
+      "current_crop_y": 0.0
+    }
+  },
+  {
+    "command": "dismiss_crop"
+  },
+  {
+    "command": "dismiss_crop_result",
+    "error_code": 0,
+    "error_description": "",
+    "result": true
+  },
+  {
+    "command": "settings_updated_notification",
+    "ffov_bitrate": 1250000,
+    "pgm_bitrate": 2657833
+  },
+  {
+    "antilag_count": 0,
+    "audio_queue_size": 3,
+    "command": "rtmp_queue_notification",
+    "thinout_count": 0,
+    "video_queue_size": 1
+  },
+  {
+    "command": "camera_general_notification",
+    "data": {
+      "not_recovered_packets": 0,
+      "stream_health": "Perfect streaming"
+    },
+    "description": "Streaming info",
+    "id": 0
+  }
+]
