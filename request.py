@@ -75,18 +75,181 @@ command_stop_session = {"command":"stop_studio_session"}
 
 # http://cdn.livestream.com/mevo/settings.json
 
+# no args I think
+command_stream_start = {"command": "stream_start"}
+
+command_stream_stop = {"command": "stream_stop"}
+
+# want to make sure it is not saving to sdcard!
+command_stream_config = {
+      "command": "stream_config",
+      "custom_rtmp": {
+        "rtmp_url": "rtmp://192.168.69.10/live",
+        "stream_name": "livekey",
+        "stream_title": "piff"
+      },
+      "metadata": {
+        "force_save_record": False
+      },
+      "pgm_height": 720,
+      "pgm_width": 1280,
+      "qualities": [
+        {
+          "audio_settings": {
+            "bitrate": 48,
+            "channels_per_frame": 2,
+            "constant_bitrate": False,
+            "sample_rate": 48000
+          },
+          "quality_name": "Mobile",
+          "video_settings": {
+            "bitrate": 150,
+            "constant_bitrate": False,
+            "height": 270,
+            "keyframe_interval": 1,
+            "max_bitrate": 300,
+            "min_bitrate": 100,
+            "width": 480
+          }
+        },
+        {
+          "audio_settings": {
+            "bitrate": 96,
+            "channels_per_frame": 2,
+            "constant_bitrate": False,
+            "sample_rate": 48000
+          },
+          "quality_name": "Normal",
+          "video_settings": {
+            "bitrate": 350,
+            "constant_bitrate": False,
+            "height": 288,
+            "keyframe_interval": 1,
+            "max_bitrate": 500,
+            "min_bitrate": 250,
+            "width": 512
+          }
+        },
+        {
+          "audio_settings": {
+            "bitrate": 96,
+            "channels_per_frame": 2,
+            "constant_bitrate": False,
+            "sample_rate": 48000
+          },
+          "quality_name": "Medium",
+          "video_settings": {
+            "bitrate": 550,
+            "constant_bitrate": False,
+            "height": 432,
+            "keyframe_interval": 1,
+            "max_bitrate": 850,
+            "min_bitrate": 450,
+            "width": 768
+          }
+        },
+        {
+          "audio_settings": {
+            "bitrate": 128,
+            "channels_per_frame": 2,
+            "constant_bitrate": False,
+            "sample_rate": 48000
+          },
+          "quality_name": "High",
+          "video_settings": {
+            "bitrate": 1500,
+            "constant_bitrate": False,
+            "height": 480,
+            "keyframe_interval": 1,
+            "max_bitrate": 2500,
+            "min_bitrate": 1000,
+            "width": 848
+          }
+        },
+        {
+          "audio_settings": {
+            "bitrate": 256,
+            "channels_per_frame": 2,
+            "constant_bitrate": False,
+            "sample_rate": 48000
+          },
+          "quality_name": "HD",
+          "video_settings": {
+            "bitrate": 2000,
+            "constant_bitrate": False,
+            "height": 720,
+            "keyframe_interval": 1,
+            "max_bitrate": 3000,
+            "min_bitrate": 1000,
+            "width": 1280
+          }
+        },
+        {
+          "audio_settings": {
+            "bitrate": 256,
+            "channels_per_frame": 2,
+            "constant_bitrate": False,
+            "sample_rate": 48000
+          },
+          "quality_name": "Full HD",
+          "video_settings": {
+            "bitrate": 4500,
+            "constant_bitrate": False,
+            "height": 1080,
+            "keyframe_interval": 1,
+            "max_bitrate": 6750,
+            "min_bitrate": 3500,
+            "width": 1920
+          }
+        }
+      ],
+      "rtmp_settings": {
+        "adaptive_bitrate_avg": 3,
+        "adaptive_bitrate_decrease": 4,
+        "adaptive_bitrate_drop_down": 0.95,
+        "adaptive_bitrate_increase": 2,
+        "adaptive_bitrate_measure": 5,
+        "adaptive_bitrate_send_lag": 1,
+        "adaptive_bitrate_send_latency": 0.5,
+        "antilag_drop_rest": 500,
+        "antilag_max_buffer": 5000,
+        "give_up_time": 180000,
+        "reconnect_delay": 10000,
+        "save_logs": False,
+        "thin_drop_count": 3,
+        "thin_drop_duration": 2
+      },
+      "stream_type": 2
+    }
+
 sequence = [
     command_auth,
     command_ping,
-    command_start_session,  # does get_settings work without this?
+    #command_start_session,  # does get_settings work without this?
     command_ping,
     #command_reboot,
-    command_test,
+    #command_test,
     command_ping,
     command_ping,
     command_stop_session
 ]
-#sequence=[command_stop_session]
+
+sequence_rtmp = [
+    command_auth,
+    command_ping,
+    command_stream_config,
+    command_stream_start,
+    command_ping
+    ]
+
+sequence_rtmp_stop = [
+    command_auth,
+    command_ping,
+    command_stream_stop,
+    command_ping
+    ]
+
+sequence = sequence_rtmp_stop
 
 sendme = [add_header(s) for s in sequence]
 sendme = reduce(add, sendme)
