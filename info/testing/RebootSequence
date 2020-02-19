@@ -1,0 +1,29 @@
+SENDING DATA:
+b'CMAN\x00\x00\x00\x94{"app_name":"studio","app_version":"6.3.0","client_id":"{f244e834-9230-437c-9d02-c4059b44b42b}","client_type":1,"command":"authorize","password":""}CMAN\x00\x00\x00\x12{"command":"ping"}CMAN\x00\x00\x00\xdd{"command":"start_studio_session","ping_interval":5,"preview_enabled":false,"studio_mode":4,"udp_ip":"127.0.0.1","udp_port":60300,"zixi_url":"zixi://127.0.0.1:50736/studio","zixi_url_ffov":"zixi://127.0.0.1:51775/studio"}CMAN\x00\x00\x00\x12{"command":"ping"}CMAN\x00\x00\x00\x14{"command":"reboot"}CMAN\x00\x00\x00!{"command":"stop_studio_session"}'
+
+RESPONSE:
+b'CMAN\x00\x00\x00\x84{"command":"authorize_result","result":true,"error_code":0,"error_description":"","protocol_version":47,"studio_protocol_version":1}'
+b'CMAN\x00\x00\x00M{"command":"ping_result","result":true,"error_code":0,"error_description":""}'
+b'CMAN\x00\x00\x00J{"command":"settings_updated_notification","studio_preview_enabled":false}'
+b'CMAN\x00\x00\x00A{"command":"studio_mode_did_change_notification","studio_mode":4}'
+b'CMAN\x00\x00\x00\xaa{"command":"start_studio_session_result","result":true,"error_code":0,"error_description":"","serial_number":"AA00153898","firmware_version":"1.16.7","start_timestamp":0}'
+b'CMAN\x00\x00\x00M{"command":"ping_result","result":true,"error_code":0,"error_description":""}'
+b'CMAN\x00\x00\x00O{"command":"reboot_result","result":true,"error_code":0,"error_description":""}'
+b'CMAN\x00\x00\x00A{"command":"studio_mode_did_change_notification","studio_mode":1}'
+b'CMAN\x00\x00\x00\\{"command":"stop_studio_session_result","result":true,"error_code":0,"error_description":""}'
+b'CMAN\x00\x00\x00O{"command":"camera_will_shutdown_notification","code":1,"description":"Reboot"}'
+
+
+SENDING DATA:
+b'CMAN\x00\x00\x00\x94{"app_name":"studio","app_version":"6.3.0","client_id":"{f244e834-9230-437c-9d02-c4059b44b42b}","client_type":1,"command":"authorize","password":""}CMAN\x00\x00\x00\x12{"command":"ping"}CMAN\x00\x00\x00\xdd{"command":"start_studio_session","ping_interval":5,"preview_enabled":false,"studio_mode":4,"udp_ip":"127.0.0.1","udp_port":60300,"zixi_url":"zixi://127.0.0.1:50736/studio","zixi_url_ffov":"zixi://127.0.0.1:51775/studio"}CMAN\x00\x00\x00\x12{"command":"ping"}CMAN\x00\x00\x00\'{"command":"get_supported_frame_rates"}CMAN\x00\x00\x00!{"command":"stop_studio_session"}'
+
+RESPONSE:
+b'CMAN\x00\x00\x00\x84{"command":"authorize_result","result":true,"error_code":0,"error_description":"","protocol_version":47,"studio_protocol_version":1}'
+b'CMAN\x00\x00\x00M{"command":"ping_result","result":true,"error_code":0,"error_description":""}'
+b'CMAN\x00\x00\x00J{"command":"settings_updated_notification","studio_preview_enabled":false}'
+b'CMAN\x00\x00\x00A{"command":"studio_mode_did_change_notification","studio_mode":4}'
+b'CMAN\x00\x00\x00\xaa{"command":"start_studio_session_result","result":true,"error_code":0,"error_description":"","serial_number":"AA00153898","firmware_version":"1.16.7","start_timestamp":0}'
+b'CMAN\x00\x00\x00M{"command":"ping_result","result":true,"error_code":0,"error_description":""}'
+b'CMAN\x00\x00\x01<{"command":"get_supported_frame_rates_result","result":true,"error_code":0,"error_description":"","supported_frame_rates":[{"time_scale":30000,"value":1001},{"time_scale":25,"value":1},{"time_scale":30000,"value":1000},{"time_scale":50,"value":1},{"time_scale":60000,"value":1001},{"time_scale":60000,"value":1000}]}'
+b'CMAN\x00\x00\x00A{"command":"studio_mode_did_change_notification","studio_mode":1}'
+b'CMAN\x00\x00\x00\\{"command":"stop_studio_session_result","result":true,"error_code":0,"error_description":""}'
