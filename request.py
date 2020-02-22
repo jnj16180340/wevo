@@ -1,7 +1,4 @@
 #!/bin/env python
-"""
-A simple example of using Python sockets for a client HTTPS connection.
-"""
 
 import ssl
 import socket
@@ -16,12 +13,11 @@ import asyncio
 
 import logging
 from sys import stderr
+
 logging.basicConfig(
-    level=logging.DEBUG,
-    format='%(name)s: %(message)s',
-    stream=stderr,
+    level=logging.DEBUG, format="%(name)s: %(message)s", stream=stderr,
 )
-log = logging.getLogger('main')
+log = logging.getLogger("main")
 
 from commands import (
     auth,
@@ -53,9 +49,9 @@ def mevo_connection(MEVO_IP="192.168.69.19", MEVO_PORT=38000):
     try:
         yield sock
     finally:
-        print('Cleaning up socket...', end='')
+        print("Cleaning up socket...", end="")
         sock.close()
-        print('Done')
+        print("Done")
 
 
 sequence = [
@@ -74,31 +70,48 @@ sequence = [
 # sequence_rtmp_stop = [auth, ping, stream_stop, ping]
 # sequence = sequence_rtmp_stop
 
+
+async def pinger(writer):
+    while True:
+        writer.write(ping())
+        await writer.drain()
+        log.debug(f"SENT: {ping()}")
+        await asyncio.sleep(2)
+
+
+async def poller(reader):
+    while True:
+        # "CMAN <length> <JSON>"
+        data = await reader.read(4)
+        # if data:
+        #    log.debug(data)
+        if data == b"CMAN":
+            length = int.from_bytes(await reader.read(4), "big")
+            payload = await reader.read(length)
+            parsed_payload = json.loads(payload)
+            log.info(f"RECEIVED: {parsed_payload}")
+        await asyncio.sleep(0.1)
+
+
 async def main():
     reader, writer = await asyncio.open_connection(
         host=MEVO_HOST,
         port=MEVO_PORT,
-        ssl=ssl.SSLContext(protocol=ssl.PROTOCOL_TLSv1_2)
+        ssl=ssl.SSLContext(protocol=ssl.PROTOCOL_TLSv1_2),
     )
 
-    while True: # can we replace w run_until_complete
-        
-        if len(sequence)>0:
+    asyncio.create_task(pinger(writer))
+
+    asyncio.create_task(poller(reader))
+
+    while True:
+        if len(sequence) > 0:
             sendme = sequence.pop(0)
-            log.debug(f'Sent: {sendme}')
             writer.write(sendme)
             await writer.drain()
-        
-        # "CMAN <length> <JSON>"
-        data = await reader.read(4)
-        if data:
-            log.debug(data)
-        if data == b'CMAN':
-            length = int.from_bytes(await reader.read(4), "big")
-            payload = await reader.read(length)
-            parsed_payload = json.loads(payload)
-            log.info(parsed_payload)
-        #await asyncio.sleep(0.25)
+            log.debug(f"SENT: {sendme}")
+        await asyncio.sleep(0.25)
+
 
 def maine():
     sendme = reduce(add, sequence)
@@ -119,8 +132,7 @@ def maine():
             print(f"{new}")
             # print(new)
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     asyncio.run(main())
-    #maine()
-
-
+    # maine()
