@@ -34,26 +34,6 @@ from commands import (
 MEVO_HOST = "192.168.69.19"
 MEVO_PORT = 38000
 
-
-@contextmanager
-def mevo_connection(MEVO_IP="192.168.69.19", MEVO_PORT=38000):
-    sock = ssl.wrap_socket(
-        socket.socket(socket.AF_INET, socket.SOCK_STREAM),
-        keyfile=None,
-        certfile=None,
-        server_side=False,
-        cert_reqs=ssl.CERT_NONE,
-        ssl_version=ssl.PROTOCOL_TLSv1_2,
-    )
-    sock.connect((MEVO_IP, MEVO_PORT))
-    try:
-        yield sock
-    finally:
-        print("Cleaning up socket...", end="")
-        sock.close()
-        print("Done")
-
-
 sequence = [
     auth(),
     ping(),
@@ -70,13 +50,12 @@ sequence = [
 # sequence_rtmp_stop = [auth, ping, stream_stop, ping]
 # sequence = sequence_rtmp_stop
 
-
 async def pinger(writer):
     while True:
+        await asyncio.sleep(2)
         writer.write(ping())
         await writer.drain()
         log.debug(f"SENT: {ping()}")
-        await asyncio.sleep(2)
 
 
 async def poller(reader):
@@ -91,6 +70,13 @@ async def poller(reader):
             parsed_payload = json.loads(payload)
             log.info(f"RECEIVED: {parsed_payload}")
         await asyncio.sleep(0.1)
+        
+async def sender(writer, sequence):
+    for sendme in sequence:
+        writer.write(sendme)
+        await writer.drain()
+        log.debug(f"SENT: {sendme}")
+        await asyncio.sleep(0.1)
 
 
 async def main():
@@ -99,40 +85,22 @@ async def main():
         port=MEVO_PORT,
         ssl=ssl.SSLContext(protocol=ssl.PROTOCOL_TLSv1_2),
     )
+    
 
     asyncio.create_task(pinger(writer))
 
     asyncio.create_task(poller(reader))
+    
+    await sender(writer, sequence)
+    await asyncio.sleep(10)
 
-    while True:
-        if len(sequence) > 0:
-            sendme = sequence.pop(0)
-            writer.write(sendme)
-            await writer.drain()
-            log.debug(f"SENT: {sendme}")
-        await asyncio.sleep(0.25)
-
-
-def maine():
-    sendme = reduce(add, sequence)
-
-    print("\nSENDING DATA:")
-    print(sendme)
-
-    with mevo_connection(MEVO_HOST, MEVO_PORT) as s:
-        # SEND THE DATA
-        s.sendall(sendme)
-
-        # WAIT FOR A RESPONSE
-        print("\nRESPONSE:")
-        while True:
-            new = s.recv(4096)
-            if not new:
-                break
-            print(f"{new}")
-            # print(new)
-
+    #while True:
+    #    if len(sequence) > 0:
+    #        sendme = sequence.pop(0)
+    #        writer.write(sendme)
+    #        await writer.drain()
+    #        log.debug(f"SENT: {sendme}")
+    #    await asyncio.sleep(0.25)
 
 if __name__ == "__main__":
     asyncio.run(main())
-    # maine()
