@@ -8,6 +8,8 @@ import socket
 from functools import reduce
 from operator import add
 
+import json
+
 from contextlib import contextmanager
 
 import asyncio
@@ -78,18 +80,25 @@ async def main():
         port=MEVO_PORT,
         ssl=ssl.SSLContext(protocol=ssl.PROTOCOL_TLSv1_2)
     )
+
     while True: # can we replace w run_until_complete
-        #log.info('Waiting for data')
+        
         if len(sequence)>0:
             sendme = sequence.pop(0)
-            log.info(f'Sent: {sendme}')
+            log.debug(f'Sent: {sendme}')
             writer.write(sendme)
             await writer.drain()
         
-        data = await reader.readline()
+        # "CMAN <length> <JSON>"
+        data = await reader.read(4)
         if data:
-            log.info(f'Received: {data}')
-        await asyncio.sleep(0.25)
+            log.debug(data)
+        if data == b'CMAN':
+            length = int.from_bytes(await reader.read(4), "big")
+            payload = await reader.read(length)
+            parsed_payload = json.loads(payload)
+            log.info(parsed_payload)
+        #await asyncio.sleep(0.25)
 
 def maine():
     sendme = reduce(add, sequence)
