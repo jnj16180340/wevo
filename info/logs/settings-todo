@@ -1,0 +1,52 @@
+cat COMMAND_LOG_3-parsed.json | jq -c '.[] | select( .command | contains("crop") | not)' > nocrop3.json
+
+
+"get_settings"
+"get_settings_result"
+"set_settings"
+"set_settings_result"
+"settings_updated_notification"
+
+
+
+cat COMMAND_LOG_3-parsed.json | jq -c '.[] | select( .command | contains("get_settings")) | keys'
+
+cat nocrop.json | jq -c 'select( .command == "get_settings_result") | keys' | sort | uniq
+["ae_metering_mode","anti-flicker","audio_enhancement_enabled","audio_mixer_config","audio_normalizer","auto_iq_stream_id","auto_turn_off","available_external_audio_inputs","bluetooth_mac_address","bluetooth_on","boost_fw_update_error","boost_fw_update_status","boost_fw_version","boost_serial_number","boost_streaming","brightness_level","busy","camera_battery_level","camera_lens_code","camera_name","camera_password","command","connection_type","contrast_level","crop_mode","crop_owner_info","current_crop_region","current_stream_config","current_video_format","dewarp_level","digital_effect","error_code","error_description","ethernet_mac_address","ev_correction","ev_correction_shift","exposure_mode","external_audio_inputs_max","features","ffov_bitrate","file_info","firmware_version","flip_video","frame_rate","free_sd_capacity","gfx_demo_mode","has_sd_card","hdr_mode","hue_level","identify_animation","image_stabilization_enabled","iso_limit","led_brightness","led_mode","mctf","mic_input","mic_pre_amp_gain","mic_proc","mix_usb_audio_channels","mode","noise_cancellation","notify_client_interval","otg_enable","pgm_bitrate","power_button_action","power_options","power_status","program_stream_format","protocol_version","recording","recording_time","reset_crop_on_disconnect","result","saturation_level","sd_card_oem_info","sd_card_status","serial_number","sharpness_level","shutter_speed","signature","sound_calibration","sound_gain_agc","sound_gain_control","sound_gain_no_enhancement","sound_gain_pga","sound_gain_preset_music","sound_gain_preset_speech","sound_input_padding","sound_noise_reduction","sound_preset","stand_battery_level","stream_backup_file_name","streaming","streaming_interface","streaming_time","studio_mode","studio_mode_profile","studio_preview_enabled","system_sounds_volume","total_sd_capacity","video_bitrate_max_kbps","video_bitrate_min_kbps","video_encoder_type_recording","view_angle","view_angle_max","white_balance_color_temp","white_balance_preset","wifi_mac_address","wifi_on","wifi_signal","wifi_sleep_time"]
+["command","error_code","error_description","firmware_version","protocol_version","result","serial_number","streaming_interface"]
+
+cat nocrop.json | jq -c 'select( .command == "get_settings") | .settings ' | sort | uniq
+["features","studio_mode","stream_backup_file_name","audio_enhancement_enabled","camera_password","streaming","video_bitrate_max_kbps","video_bitrate_min_kbps","dewarp_level","flip_video","ev_correction","ev_correction_shift","camera_name","white_balance_preset","white_balance_color_temp","anti-flicker","sharpness_level","iso_limit","power_button_action","shutter_speed","brightness_level","hue_level","contrast_level","saturation_level","reset_crop_on_disconnect","led_mode","identify_animation","led_brightness","digital_effect","system_sounds_volume","auto_turn_off","view_angle","sound_gain_control","sound_gain_pga","sound_gain_agc","sound_calibration","wifi_signal","auto_iq_stream_id","audio_normalizer","noise_cancellation","wifi_sleep_time","bluetooth_on","wifi_on","notify_client_interval","boost_streaming","audio_mixer_config","available_external_audio_inputs","external_audio_inputs_max","streaming_interface","power_status","camera_battery_level","stand_battery_level","connection_type","total_sd_capacity","free_sd_capacity","has_sd_card","sd_card_status","boost_serial_number","serial_number","ethernet_mac_address","streaming_time","recording_time","current_stream_config","current_crop_region","current_video_format","busy","firmware_version","view_angle_max","camera_lens_code","wifi_mac_address","bluetooth_mac_address","protocol_version","studio_preview_enabled","gfx_demo_mode","studio_mode_profile","crop_mode","ffov_bitrate","pgm_bitrate","sd_card_oem_info","boost_fw_version","boost_fw_update_status","boost_fw_update_error","crop_owner_info","frame_rate","image_stabilization_enabled","exposure_mode","ae_metering_mode","sound_preset","sound_input_padding","sound_noise_reduction","sound_gain_no_enhancement","sound_gain_preset_music","sound_gain_preset_speech","program_stream_format","mix_usb_audio_channels","hdr_mode","video_encoder_type_recording","recording","power_options","mctf","otg_enable","mic_input","mic_pre_amp_gain","mic_proc","file_info","signature","mode"]
+["protocol_version","streaming_interface","firmware_version","serial_number"]
+
+
+cat nocrop.json | jq -c 'select( .command == "set_settings") | keys' | sort | uniq
+["audio_mixer_config","command","sound_gain_no_enhancement"]
+["brightness_level","command","contrast_level","digital_effect","ev_correction","exposure_mode","saturation_level","white_balance_preset"]
+["command","country_code"]
+["command","gfx_demo_mode"]
+
+
+
+cat nocrop.json | jq -c 'select( .command == "set_settings_result") | keys'
+NO MEANINGFUL VARIATION HERE.
+
+cat nocrop.json | jq -c 'select( .command == "settings_updated_notification") | keys' | sort | uniq
+["available_external_audio_inputs","command"]
+["battery_temperature","command"]
+["brightness_level","command","contrast_level"]
+["brightness_level","command","contrast_level","ev_correction","saturation_level"]
+["command","contrast_level","ev_correction","saturation_level"]
+["command","crop_owner_info"]
+["command","crop_owner_info","current_crop_region"]
+["command","current_stream_config"]
+["command","digital_effect"]
+["command","digital_effect","ev_correction","saturation_level"]
+["command","error","streaming"]
+["command","ffov_bitrate","pgm_bitrate"]
+["command","ffov_bitrate","pgm_bitrate","video_bitrate_max_kbps","video_bitrate_min_kbps"]
+["command","free_sd_capacity","total_sd_capacity"]
+["command","iso_limit"]
+["command","program_stream_format"]
+["command","streaming"]
+["command","streaming","streaming_data"]
