@@ -30,6 +30,14 @@ from commands import (
     stream_stop,
 )
 
+MEVO_SERVICES = {
+        'ls_cameraman': '_ls-cameraman._tcp.local.',
+        'mevo_studio': '_mevo-studio._tcp.local.',
+        'sftp_ssh': '_sftp-ssh._tcp.local.',
+        'ssh': '_ssh._tcp.local.',
+        }
+
+
 # NB: Should use Bonjour / Avahi / Zeroconf to get this
 MEVO_HOST = "192.168.69.19"
 MEVO_PORT = 38000
