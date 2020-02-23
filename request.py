@@ -84,10 +84,10 @@ async def poller(reader):
 
 
 async def sender(writer, sequence):
-    for sendme in sequence:
-        writer.write(sendme)
+    for item in sequence:
+        writer.write(item)
         await writer.drain()
-        log.debug(f"SENT: {sendme}")
+        log.debug(f"SENT: {item}")
         await asyncio.sleep(0.1)
 
 
@@ -100,8 +100,8 @@ async def main():
     log.debug(f"Found Mevo @ {mevo_host}:{mevo_port}")
 
     reader, writer = await asyncio.open_connection(
-        host=mevo_host,  # MEVO_HOST,
-        port=mevo_port,  # MEVO_PORT,
+        host=mevo_host,
+        port=mevo_port,
         ssl=ssl.SSLContext(protocol=ssl.PROTOCOL_TLSv1_2),
     )
 
@@ -111,14 +111,6 @@ async def main():
 
     await sender(writer, sequence)
     await asyncio.sleep(10)
-
-    # while True:
-    #    if len(sequence) > 0:
-    #        sendme = sequence.pop(0)
-    #        writer.write(sendme)
-    #        await writer.drain()
-    #        log.debug(f"SENT: {sendme}")
-    #    await asyncio.sleep(0.25)
 
 
 if __name__ == "__main__":
