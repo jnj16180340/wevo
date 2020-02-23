@@ -16,7 +16,8 @@ def mevo_connection(MEVO_IP="192.168.69.19", MEVO_PORT=38000):
         sock.close()
         print("Done")
 
-def maine(sequence, ):
+
+def maine(sequence,):
     sendme = reduce(add, sequence)
 
     print("\nSENDING DATA:")

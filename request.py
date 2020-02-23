@@ -19,6 +19,8 @@ logging.basicConfig(
 )
 log = logging.getLogger("main")
 
+from bjdisco import simple_find_service
+
 from commands import (
     auth,
     ping,
@@ -31,11 +33,11 @@ from commands import (
 )
 
 MEVO_SERVICES = {
-        'ls_cameraman': '_ls-cameraman._tcp.local.',
-        'mevo_studio': '_mevo-studio._tcp.local.',
-        'sftp_ssh': '_sftp-ssh._tcp.local.',
-        'ssh': '_ssh._tcp.local.',
-        }
+    "ls_cameraman": "_ls-cameraman._tcp.local.",
+    "mevo_studio": "_mevo-studio._tcp.local.",
+    "sftp_ssh": "_sftp-ssh._tcp.local.",
+    "ssh": "_ssh._tcp.local.",
+}
 
 
 # NB: Should use Bonjour / Avahi / Zeroconf to get this
@@ -58,6 +60,7 @@ sequence = [
 # sequence_rtmp_stop = [auth, ping, stream_stop, ping]
 # sequence = sequence_rtmp_stop
 
+
 async def pinger(writer):
     while True:
         await asyncio.sleep(2)
@@ -78,7 +81,8 @@ async def poller(reader):
             parsed_payload = json.loads(payload)
             log.info(f"RECEIVED: {parsed_payload}")
         await asyncio.sleep(0.1)
-        
+
+
 async def sender(writer, sequence):
     for sendme in sequence:
         writer.write(sendme)
@@ -88,27 +92,34 @@ async def sender(writer, sequence):
 
 
 async def main():
+    services = await simple_find_service(
+        loop=asyncio.get_event_loop(), service=MEVO_SERVICES["ls_cameraman"]
+    )
+    mevo_host = services[0]["server"]  # also 'address', 'address6'
+    mevo_port = services[0]["port"]
+    log.debug(f"Found Mevo @ {mevo_host}:{mevo_port}")
+
     reader, writer = await asyncio.open_connection(
-        host=MEVO_HOST,
-        port=MEVO_PORT,
+        host=mevo_host,  # MEVO_HOST,
+        port=mevo_port,  # MEVO_PORT,
         ssl=ssl.SSLContext(protocol=ssl.PROTOCOL_TLSv1_2),
     )
-    
 
     asyncio.create_task(pinger(writer))
 
     asyncio.create_task(poller(reader))
-    
+
     await sender(writer, sequence)
     await asyncio.sleep(10)
 
-    #while True:
+    # while True:
     #    if len(sequence) > 0:
     #        sendme = sequence.pop(0)
     #        writer.write(sendme)
     #        await writer.drain()
     #        log.debug(f"SENT: {sendme}")
     #    await asyncio.sleep(0.25)
+
 
 if __name__ == "__main__":
     asyncio.run(main())

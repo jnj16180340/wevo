@@ -1,5 +1,6 @@
 import json
 
+
 def json_encode(p):
     # There can be NO SPACES in the json
     return json.dumps(p, separators=(",", ":"))
@@ -84,7 +85,9 @@ def stream_stop():
 # want to make sure it is not saving to sdcard!
 # http://cdn.livestream.com/mevo/settings.json
 @command
-def stream_config(endpoint='192.168.69.10/live', stream_name='livekey',stream_title='piff'):
+def stream_config(
+    endpoint="192.168.69.10/live", stream_name="livekey", stream_title="piff"
+):
     return {
         "command": "stream_config",
         "custom_rtmp": {
