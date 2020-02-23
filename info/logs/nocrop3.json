@@ -1,0 +1,42 @@
+{"command":"settings_updated_notification","crop_owner_info":{"crop_owner":"","start_timestamp":16282266},"current_crop_region":{"current_crop_height":2160,"current_crop_width":3840,"current_crop_x":0,"current_crop_y":0}}
+{"battery_temperature":38.16897964477539,"command":"settings_updated_notification"}
+{"command":"settings_updated_notification","ffov_bitrate":0,"pgm_bitrate":0,"video_bitrate_max_kbps":0,"video_bitrate_min_kbps":0}
+{"command":"settings_updated_notification","ffov_bitrate":1250000,"pgm_bitrate":0,"video_bitrate_max_kbps":0,"video_bitrate_min_kbps":0}
+{"available_external_audio_inputs":[{"id":"000000000000000000000000000000000002","name":"Client Microphone","state":2,"type":2}],"command":"settings_updated_notification"}
+{"command":"settings_updated_notification","ffov_bitrate":0,"pgm_bitrate":0,"video_bitrate_max_kbps":0,"video_bitrate_min_kbps":0}
+{"command":"settings_updated_notification","ffov_bitrate":1250000,"pgm_bitrate":0,"video_bitrate_max_kbps":0,"video_bitrate_min_kbps":0}
+{"available_external_audio_inputs":[{"id":"000000000000000000000000000000000002","name":"Client Microphone","state":2,"type":2}],"command":"settings_updated_notification"}
+{"command":"stop_ffov_stream"}
+{"command":"stop_ffov_stream_result","error_code":0,"error_description":"","result":true}
+{"command":"settings_updated_notification","ffov_bitrate":0,"pgm_bitrate":0,"video_bitrate_max_kbps":0,"video_bitrate_min_kbps":0}
+{"command":"settings_updated_notification","ffov_bitrate":1250000,"pgm_bitrate":0,"video_bitrate_max_kbps":0,"video_bitrate_min_kbps":0}
+{"available_external_audio_inputs":[{"id":"000000000000000000000000000000000002","name":"Client Microphone","state":2,"type":2}],"command":"settings_updated_notification"}
+{"command":"set_settings","gfx_demo_mode":false}
+{"command":"set_settings_result","error_code":0,"error_description":"","result":true,"unapplied":[]}
+{"command":"stream_config","custom_rtmp":{"rtmp_url":"rtmp://192.168.69.10/live","stream_name":"livekey","stream_title":"mamita"},"metadata":{"force_save_record":false},"pgm_height":720,"pgm_width":1280,"qualities":[{"audio_settings":{"bitrate":48,"channels_per_frame":2,"constant_bitrate":false,"sample_rate":48000},"quality_name":"Mobile","video_settings":{"bitrate":150,"constant_bitrate":false,"height":270,"keyframe_interval":1,"max_bitrate":300,"min_bitrate":100,"width":480}},{"audio_settings":{"bitrate":96,"channels_per_frame":2,"constant_bitrate":false,"sample_rate":48000},"quality_name":"Normal","video_settings":{"bitrate":350,"constant_bitrate":false,"height":288,"keyframe_interval":1,"max_bitrate":500,"min_bitrate":250,"width":512}},{"audio_settings":{"bitrate":96,"channels_per_frame":2,"constant_bitrate":false,"sample_rate":48000},"quality_name":"Medium","video_settings":{"bitrate":550,"constant_bitrate":false,"height":432,"keyframe_interval":1,"max_bitrate":850,"min_bitrate":450,"width":768}},{"audio_settings":{"bitrate":128,"channels_per_frame":2,"constant_bitrate":false,"sample_rate":48000},"quality_name":"High","video_settings":{"bitrate":1500,"constant_bitrate":false,"height":480,"keyframe_interval":1,"max_bitrate":2500,"min_bitrate":1000,"width":848}},{"audio_settings":{"bitrate":256,"channels_per_frame":2,"constant_bitrate":false,"sample_rate":48000},"quality_name":"HD","video_settings":{"bitrate":2000,"constant_bitrate":false,"height":720,"keyframe_interval":1,"max_bitrate":3000,"min_bitrate":1000,"width":1280}},{"audio_settings":{"bitrate":256,"channels_per_frame":2,"constant_bitrate":false,"sample_rate":48000},"quality_name":"Full HD","video_settings":{"bitrate":4500,"constant_bitrate":false,"height":1080,"keyframe_interval":1,"max_bitrate":6750,"min_bitrate":3500,"width":1920}}],"rtmp_settings":{"adaptive_bitrate_avg":3,"adaptive_bitrate_decrease":4,"adaptive_bitrate_drop_down":0.95,"adaptive_bitrate_increase":2,"adaptive_bitrate_measure":5,"adaptive_bitrate_send_lag":1,"adaptive_bitrate_send_latency":0.5,"antilag_drop_rest":500,"antilag_max_buffer":5000,"give_up_time":180000,"reconnect_delay":10000,"save_logs":false,"thin_drop_count":3,"thin_drop_duration":2},"stream_type":2}
+{"command":"settings_updated_notification","current_stream_config":{"custom_rtmp":{"stream_title":"mamita"},"facebook":{},"linkedin":{},"livestream":{},"periscope":{},"rtmp_settings":{},"vimeo":{},"youtube":{}}}
+{"command":"settings_updated_notification","streaming":1}
+{"command":"settings_updated_notification","ffov_bitrate":1250000,"pgm_bitrate":700000,"video_bitrate_max_kbps":3500,"video_bitrate_min_kbps":700}
+{"available_external_audio_inputs":[{"id":"000000000000000000000000000000000002","name":"Client Microphone","state":2,"type":2}],"command":"settings_updated_notification"}
+{"command":"settings_updated_notification","ffov_bitrate":1250000,"pgm_bitrate":700000,"video_bitrate_max_kbps":3500,"video_bitrate_min_kbps":700}
+{"command":"settings_updated_notification","program_stream_format":{"fps":30,"height":720,"width":1280}}
+{"command":"settings_updated_notification","free_sd_capacity":15383461888,"total_sd_capacity":15923150848}
+{"command":"settings_updated_notification","streaming":2,"streaming_data":""}
+{"command":"settings_updated_notification","ffov_bitrate":1250000,"pgm_bitrate":3372000}
+{"command":"settings_updated_notification","ffov_bitrate":1250000,"pgm_bitrate":3212000}
+{"command":"settings_updated_notification","ffov_bitrate":1250000,"pgm_bitrate":3046400}
+{"command":"settings_updated_notification","ffov_bitrate":1250000,"pgm_bitrate":2919424}
+{"command":"settings_updated_notification","ffov_bitrate":1250000,"pgm_bitrate":2769527}
+{"command":"settings_updated_notification","ffov_bitrate":1250000,"pgm_bitrate":2744253}
+{"command":"settings_updated_notification","ffov_bitrate":1250000,"pgm_bitrate":2597362}
+{"command":"settings_updated_notification","ffov_bitrate":1250000,"pgm_bitrate":2420348}
+{"command":"settings_updated_notification","ffov_bitrate":1250000,"pgm_bitrate":2206414}
+{"command":"settings_updated_notification","ffov_bitrate":1250000,"pgm_bitrate":1965037}
+{"command":"settings_updated_notification","ffov_bitrate":1250000,"pgm_bitrate":2174341}
+{"command":"settings_updated_notification","crop_owner_info":{"crop_owner":"4544afdc-b68e-39a2-9c8e-f7712db32c88","start_timestamp":2762760}}
+{"command":"settings_updated_notification","crop_owner_info":{"crop_owner":"","start_timestamp":2855853},"current_crop_region":{"current_crop_height":1397.6771240234375,"current_crop_width":2484.75927734375,"current_crop_x":587.6200561523438,"current_crop_y":436.6614074707031}}
+{"command":"settings_updated_notification","ffov_bitrate":1250000,"pgm_bitrate":2404575}
+{"command":"settings_updated_notification","crop_owner_info":{"crop_owner":"4544afdc-b68e-39a2-9c8e-f7712db32c88","start_timestamp":3627624}}
+{"command":"settings_updated_notification","crop_owner_info":{"crop_owner":"","start_timestamp":3726723},"current_crop_region":{"current_crop_height":1397.6771240234375,"current_crop_width":2484.75927734375,"current_crop_x":1304.6201171875,"current_crop_y":70.66140747070312}}
+{"battery_temperature":38.67695999145508,"command":"settings_updated_notification"}
+{"command":"settings_updated_notification","crop_owner_info":{"crop_owner":"","start_timestamp":4249245},"current_crop_region":{"current_crop_height":1397.6771240234375,"current_crop_width":2484.75927734375,"current_crop_x":1340.2408447265625,"current_crop_y":762.3228759765625}}

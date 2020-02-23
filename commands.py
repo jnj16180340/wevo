@@ -780,6 +780,53 @@ start_remote_audio_session_result = {
     "ticks_per_second": 960000,
 }
 
+
+@command
+def set_crop_cut(x, y, w, h):
+    # TODO bounds check
+    return {
+        "command": "set_crop",
+        "transition_aray": [
+            {"h": float(h), "w": float(w), "x": float(x), "y": float(y)}
+        ],
+        "transition_type": "cut",  # or 'crop_move'
+    }
+
+
+def slerp(xi, xf, n=10):
+    dx = (xf - xi) / (n - 1)
+    return [xi + k * dx for k in range(n - 1)] + [xf]
+
+
+@command
+def set_crop_lerp(xi, yi, wi, hi, xf, yf, wf, hf, n=10):
+    # TODO: bounds check
+    # TODO: I hope the digit precision doesnt matter
+    lx = slerp(xi, xf, n)
+    ly = slerp(yi, yf, n)
+    lw = slerp(wi, wf, n)
+    lh = slerp(hi, hf, n)
+    transition_arRay = [
+        {"x": k[0], "y": k[1], "w": k[2], "h": k[3]} for k in list(zip(lx, ly, lw, lh))
+    ]
+    return {
+        "command": "set_crop",
+        "transition_aray": transition_arRay,
+        "transition_type": "crop_move",
+    }
+
+
+set_crop_result = (
+    {
+        "accepted_items": 1,
+        "command": "set_crop_result",
+        "error_code": 0,
+        "error_description": "",
+        "result": True,
+        "total_items": 1,
+    },
+)
+
 camera_general_notification = {
     "command": "camera_general_notification",
     "data": {"not_recovered_packets": 0, "stream_health": "Perfect streaming"},
