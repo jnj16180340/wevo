@@ -35,6 +35,8 @@ from commands.streaming import (
     stream_stop,
 )
 
+from commands.settings import set_led_brightness
+
 MEVO_SERVICES = {
     "ls_cameraman": "_ls-cameraman._tcp.local.",
     "mevo_studio": "_mevo-studio._tcp.local.",
@@ -63,6 +65,15 @@ sequence = [
 # sequence_rtmp_stop = [auth, ping, stream_stop, ping]
 # sequence = sequence_rtmp_stop
 
+from math import sin, pi
+async def flashy(writer):
+    theta = 0
+    while True:
+        await asyncio.sleep(0.75)
+        writer.write(set_led_brightness((sin(theta)+1)/2))
+        await writer.drain()
+        theta += (pi/6)
+        log.debug(f"LED: {(sin(theta)+1)/2}")
 
 async def pinger(writer):
     while True:
@@ -111,6 +122,8 @@ async def main():
     asyncio.create_task(pinger(writer))
 
     asyncio.create_task(poller(reader))
+    
+    asyncio.create_task(flashy(writer))
 
     await sender(writer, sequence)
     await asyncio.sleep(10)
