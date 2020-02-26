@@ -69,11 +69,11 @@ from math import sin, pi
 async def flashy(writer):
     theta = 0
     while True:
-        await asyncio.sleep(0.75)
-        writer.write(set_led_brightness((sin(theta)+1)/2))
+        await asyncio.sleep(1)
+        writer.write(set_led_brightness((sin(theta)+1)*0.45))
         await writer.drain()
         theta += (pi/6)
-        log.debug(f"LED: {(sin(theta)+1)/2}")
+        log.debug(f"LED: {(sin(theta)+1.1)/2}")
 
 async def pinger(writer):
     while True:
