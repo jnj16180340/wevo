@@ -1,0 +1,59 @@
+{
+  "available_external_audio_inputs": [
+    {
+      "id": "000000000000000000000000000000000002",
+      "name": "Client Microphone",
+      "state": 2,
+      "type": 2
+    }
+  ],
+  "command": "settings_updated_notification",
+  "brightness_level": 0,
+  "contrast_level": 1.100000023841858,
+  "ev_correction": 0,
+  "saturation_level": 1,
+  "iso_limit": 6,
+  "digital_effect": 0,
+  "ffov_bitrate": 1250000,
+  "pgm_bitrate": 2404575,
+  "video_bitrate_max_kbps": 3500,
+  "video_bitrate_min_kbps": 700,
+  "battery_temperature": 38.67695999145508,
+  "current_stream_config": {
+    "custom_rtmp": {
+      "stream_title": "mamita"
+    },
+    "facebook": {},
+    "linkedin": {},
+    "livestream": {},
+    "periscope": {},
+    "rtmp_settings": {},
+    "vimeo": {},
+    "youtube": {}
+  },
+  "streaming": 2,
+  "error": {
+    "debug_error_description": "RtmpStreamConnectionError",
+    "error_code": 49,
+    "error_description": "RTMP error",
+    "http_error_code": 0
+  },
+  "crop_owner_info": {
+    "crop_owner": "",
+    "start_timestamp": 4249245
+  },
+  "current_crop_region": {
+    "current_crop_height": 1397.6771240234375,
+    "current_crop_width": 2484.75927734375,
+    "current_crop_x": 1340.2408447265625,
+    "current_crop_y": 762.3228759765625
+  },
+  "program_stream_format": {
+    "fps": 30,
+    "height": 720,
+    "width": 1280
+  },
+  "free_sd_capacity": 15383461888,
+  "total_sd_capacity": 15923150848,
+  "streaming_data": ""
+}

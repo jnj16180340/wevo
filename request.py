@@ -21,12 +21,15 @@ log = logging.getLogger("main")
 
 from bjdisco import simple_find_service
 
-from commands import (
+from commands.meta import (
     auth,
     ping,
     reboot,
     start_studio_session,
     stop_studio_session,
+)
+
+from commands.streaming import (
     stream_config,
     stream_start,
     stream_stop,

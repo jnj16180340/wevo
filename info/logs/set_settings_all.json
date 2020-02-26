@@ -1,0 +1,38 @@
+{
+  "brightness_level": 0,
+  "command": "set_settings",
+  "contrast_level": 1.1,
+  "digital_effect": 0,
+  "ev_correction": 0,
+  "exposure_mode": 0,
+  "saturation_level": 1,
+  "white_balance_preset": 0,
+  "gfx_demo_mode": false,
+  "led_brightness": 1,
+  "country_code": "US",
+  "audio_mixer_config": {
+    "external_inputs": [
+      {
+        "gain": 0,
+        "id": "000000000000000000000000000000000001",
+        "muted": true,
+        "name_hint": "USB Audio"
+      },
+      {
+        "gain": 0.009999999776482582,
+        "id": "000000000000000000000000000000000002",
+        "muted": true,
+        "name_hint": "Client Microphone"
+      }
+    ],
+    "internal_mic": {
+      "gain": 0,
+      "muted": false
+    },
+    "master": {
+      "gain": 0,
+      "muted": false
+    }
+  },
+  "sound_gain_no_enhancement": 12.010000228881836
+}
