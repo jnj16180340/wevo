@@ -90,7 +90,7 @@ class MevoClientProtocol(asyncio.Protocol):
             transport.write(item)
             log.debug(f"{datetime.now()} SENT: {item}")
         self.loop.create_task(self.pinger())
-        self.loop.create_task(self.flashy())
+        #self.loop.create_task(self.flashy())
 
     def data_received(self, data):
         if data.startswith(b"CMAN"):
