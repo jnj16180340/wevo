@@ -12,3 +12,10 @@ docker run      \
   -e RTMP_STREAM_NAMES=live,teststream1,teststream2   \
   jasonrivers/nginx-rtmp
 ```
+
+### Motion / MotionEye settings (for **mice**)
+- auto noise threshold
+- mask - red is ignored
+- 1280x720 threshold: 0.01%
+  - motioneye web ui - need to breakpoint `main.js:1866` `var dict = ...`
+  - set `dict.frame_change_threshold = 0.01`

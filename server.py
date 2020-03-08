@@ -83,6 +83,21 @@ class MevoClientProtocol(asyncio.Protocol):
             self.transport.write(set_led_brightness((sin(theta) + 1) * 0.45))
             theta += pi / 6
             log.debug(f"{datetime.now()} LED: {(sin(theta)+1.1)/2}")
+    
+    async def steamy(self):
+        # The right way to do this:
+        # Use asyncio.Event,Condition
+        # Set from reader, wait from stream_start etc.
+        log.info('Configuring remote stream')
+        self.transport.write(stream_config(
+            endpoint='192.168.69.10/mevo0', # of RTMP relay; stream /mevo0 is defined on the server
+            stream_name='mevo0', # whatever you want?
+            stream_title='piff', # whatever you want
+        ))
+        # i.e. don't do this
+        await asyncio.sleep(5)
+        self.transport.write(stream_start())
+        log.info('Starting remote stream')
 
     def connection_made(self, transport):
         self.transport = transport
@@ -91,6 +106,7 @@ class MevoClientProtocol(asyncio.Protocol):
             log.debug(f"{datetime.now()} SENT: {item}")
         self.loop.create_task(self.pinger())
         #self.loop.create_task(self.flashy())
+        self.loop.create_task(self.steamy())
 
     def data_received(self, data):
         if data.startswith(b"CMAN"):
