@@ -1,3 +1,6 @@
+### Project status
+I bricked the (free) test device by plugging in a janky Ethernet cable (??). Expect no further development.
+
 ### Connecting to it
 URLs (camera):`rtmp://192.168.69.10/live`, stream key `livekey`, 1935 is default RTMP port  
 URLs (VLC): `rtmp://192.168.69.10/live/livekey`     
